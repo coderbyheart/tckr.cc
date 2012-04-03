@@ -41,13 +41,25 @@
 
         <mkdir dir="${asset.dir}"/>
 
+        <mkdir dir="${asset.dir}/img"/>
+        <mkdir dir="${asset.dir}/css"/>
+
+        <!-- CSS -->
         <yui-compressor
                 warn="false"
                 munge="true"
                 preserveallsemicolons="false"
                 fromdir="${build.dir}"
-                todir="${asset.dir}"
+                todir="${asset.dir}/css"
                 />
+
+        <!-- Optimize PNGs -->
+        <copy todir="${asset.dir}/img/">
+            <fileset file="${htdocs.dir}/img/*.png"/>
+        </copy>
+        <apply executable="/usr/bin/optipng">
+            <fileset file="${asset.dir}/img/*.png"/>
+        </apply>
 
     </target>
 
