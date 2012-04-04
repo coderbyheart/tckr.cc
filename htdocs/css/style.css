@@ -44,6 +44,10 @@ hr {
     border-bottom: 1px dotted #666;
 }
 
+hr + p {
+    margin: 0;
+}
+
 a.internal {
 
 }
@@ -178,9 +182,22 @@ dl.icons dd {
     margin-left: 0;
 }
 
+ul.f li {
+    float: left;
+    text-align: center;
+}
+
 ul.icons {
     list-style: none;
     padding: 0;
+}
+
+ul.icons.f-1-3 li {
+    width: 33%;
+}
+
+ul.icons.f-1-4 li {
+    width: 25%;
 }
 
 .icon-tckrcc {
