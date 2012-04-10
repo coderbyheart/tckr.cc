@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /qrcode.html
 Disallow: /responsive.html
+Allow: /
 
