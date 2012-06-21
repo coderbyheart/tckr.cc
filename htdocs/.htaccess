@@ -490,3 +490,14 @@ Options -Indexes
         Header set Content-Disposition attachment
   </IfModule>
 </FilesMatch>
+
+# Nice-URLs
+
+<IfModule mod_rewrite.c>
+  RewriteCond %{HTTP:Accept-Language} ^de [NC]
+  RewriteRule ^$ /de [R=301,L]
+  RewriteRule ^$ /en [R=301,L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>

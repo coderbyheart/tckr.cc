@@ -1,0 +1,135 @@
+# Meta / Seiten-Titel
+msgid "titel"
+msgstr "Kontakt und Profil"
+
+# Meta / META-Tag description
+msgid "description"
+msgstr "Kontaktinformationen und persönliches Profil von Markus Tacker, Konzeption und Entwicklung von komplexen Webanwendungen, technischer Projektleiter aus Offenbach am Main, Deutschland."
+
+# Navigation / Kontakt
+msgid "nav.kontakt"
+msgstr "Kontakt"
+
+# Navigation / Sprache wechseln
+msgid "nav.switchlang"
+msgstr "English"
+
+# Navigation / Titel Sprache wechseln
+msgid "nav.switchlang.titel"
+msgstr "View this page in english"
+
+# Navigation / Über mich
+msgid "nav.about"
+msgstr "Über mich"
+
+# Navigation / Links
+msgid "nav.links"
+msgstr "Links"
+
+# Kontakt / Überschrift
+msgid "kontakt.headline"
+msgstr "Kontakt"
+
+# Kontakt / Job-Titel
+msgid "kontakt.jobtitle"
+msgstr "Konzeption und Realisierung von komplexen Webanwendungen, technische Projektleitung"
+
+# Organisationen / coder::by(♥)
+msgid "organizations.cbh.description"
+msgstr "Ich bin ein freier Webanwendungsentwickler aus Deutschland. Ich ♥ Code."
+
+# Organisationen / re:text
+msgid "organizations.retext.description"
+msgstr "Mit re:text können alle text-spezifischen Aufgaben während der Erstellung von Informations- und Kommunikationsmedien auf einfache Art verwaltet werden."
+
+# Organisationen / offenraum
+msgid "organizations.offenraum.description"
+msgstr "offenraum ist ein Coworking Space im Rhein-Main-Gebiet südlich von Frankfurt in Offenbach am Main, in der Nähe des Hauptbahnhofs, Hassia Fabrik und Stadtkrankenhaus."
+
+# Organisationen / TEDx RheinMain
+msgid "organizations.tedx.description"
+msgstr "TEDx ist eine Reihe lokaler, unabhängig organisierter Veranstaltungen, die Menschen zusammen bringt um gemeinsam das TED-Erlebnis zu erfahren."
+
+# Organisationen / PEAR
+msgid "organizations.pear.description"
+msgstr "PEAR ist ein Framework und ein Verzeichnis wiederverwendbarer PHP-Komponenten."
+
+# Kontakt / Label / Telefon
+msgid "kontakt.telefon.label"
+msgstr "Telefon"
+
+# Kontakt / Label / E-Mail
+msgid "kontakt.email.label"
+msgstr "E-Mail"
+
+# Kontakt / Label / Web
+msgid "kontakt.web.label"
+msgstr "Web"
+
+# Kontakt / Label / Twitter
+msgid "kontakt.twitter.label"
+msgstr "Twitter"
+
+# Kontakt / Verbinden …
+msgid "kontakt.connect"
+msgstr "Verbinden …"
+
+# Kontakt / VCF-Link
+msgid "kontakt.vcf"
+msgstr "Kontaktdaten als [link]VCF-Datei[/link]."
+
+# Kontakt / QR-Code
+msgid "kontakt.qr"
+msgstr "[link]QR-Code[/link] für diese Seite anzeigen."
+
+# Über mich / Titel
+msgid "about.headline"
+msgstr "Über mich"
+
+# Über mich / Intro
+msgid "about.intro"
+msgstr "Dank einer Ausbildung mit Schwerpunkt Gestaltung, langjähriger Berufserfahrung als Angestellter und Selbständiger sowie dem Studium der Medieninformatik an der Hochschule RheinMain kann ich den Bogen zwischen Design und Technik, Konzept und Realisierung schlagen und in der Projektarbeit tiefgreifendes fachliches Know-How zu komplexen, internetbasierten Anwendungen zum Einsatz bringen."
+
+# Über mich / coder::by(♥)
+msgid "about.cbh"
+msgstr "Neben meinem Studium arbeite ich als [coderbyheart] frei für Agenturen und mittelständische Unternehmen. Dort übernehme ich neben der Konzeption und Realisierung von komplexen Webanwendungen auch die technische Projektleitung."
+
+# Über mich / re:text
+msgid "about.retext"
+msgstr "In diesem Jahr werde ich mein Medieninformatik-Studium abschließen und anschließend [retext] entwickeln, einen Dienst, der den Workflow rund um Texte in Informations- und Kommunikationsmedien organisiert und nachvollziehbar macht."
+
+# Über mich / offenraum
+msgid "about.offenraum"
+msgstr "Nebenbei plane ich die Eröffnung eines Coworking Spaces in Offenbach, den [offenraum]."
+
+# Über mich / diverse
+msgid "about.misc"
+msgstr "Wenn ich Zeit habe, mache ich ab und zu Fotos. Ich koche gerne und fahre noch lieber in den Urlaub. Mich interessiert eigentlich alles, was sich in Bits formen lässt und „unter der Haube“ von Webanwendungen passiert. Gelegentlich kümmere ich mich um meine Pakete bei [pear] und engagiere mich seit diesem Jahr bei der Organisiation der [tedx]."
+
+# Links / Blog Beschreibung
+msgid"link.blog.about"
+msgstr "In meinem privaten Blog schreibe ich zu vor allem über Urlaub, Kino und Kochen."
+
+# Links / Markus studiert! Beschreibung
+msgid"link.markusstudiert.about"
+msgstr "Hier schreibe ich über meine Studium der Medieninformatik an der Hochschule RheinMain."
+
+# Links / flickr Beschreibung
+msgid"link.flickr.about"
+msgstr "Meine Fotos finden sich hier."
+
+# Links / Amazon Beschreibung
+msgid"link.amazon.about"
+msgstr "Große und kleine Dinge, die mir noch fehlen…"
+
+# Links / Amazon Titel
+msgid "link.amazon.title"
+msgstr "Amazon Wunschliste"
+
+# Links / Weitere Profile
+msgid "link.profiles"
+msgstr "Meine weiteren Profile im Netz:"
+
+# Footer
+msgid "footer"
+msgstr "E-Mail-Icon von Marc Haumann, Welt-Icon von Johan H. W. Basberg, von [nounproject].\nSämtliche verwendeten Logos und Warenzeichen sind Eigentum des jeweiligen Rechteinhabers.\n © 2012 [markustacker]. Alle Rechte vorbehalten. [github]Quellcode auf GitHub.[/github]"

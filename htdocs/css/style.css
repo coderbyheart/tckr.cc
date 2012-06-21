@@ -52,7 +52,7 @@ a.internal {
 
 }
 
-nav {
+nav.mobile {
     min-height: 30px;
     font-family: "Trebuchet MS", "Verdana", sans-serif;
     width: 100%;
@@ -70,9 +70,15 @@ nav {
     border-bottom: 1px solid #389efc;
 }
 
-nav a {
-    padding: 0 1em;
+nav.mobile a {
+    padding: 0 0.5em;
     line-height: 30px;
+}
+
+nav.desktop {
+    text-align: right;
+    font-size: 0.875em;
+    margin: -1em 2em 1em 0;
 }
 
 header {
@@ -161,7 +167,7 @@ footer {
     line-height: 1em;
 }
 
-.icon {
+i {
     background: transparent url(../img/icons.png) no-repeat;
     display: inline-block;
     width: 16px;
@@ -170,7 +176,7 @@ footer {
     text-indent: -9000px;
 }
 
-.icon + a {
+i + a {
     margin-left: 4px;
 }
 
@@ -200,102 +206,102 @@ ul.icons.f-1-4 li {
     width: 25%;
 }
 
-.icon-tckrcc {
+i.tckrcc {
     background-position: 0 0;
 }
 
-.icon-twitter {
+i.twitter {
     background-position: 0 -16px;
 }
 
-.icon-amazon {
+i.amazon {
     background-position: 0 -32px;
 }
 
-.icon-phone {
+i.phone {
     background-position: 0 -48px;
 }
 
-.icon-gplus {
+i.gplus {
     background-position: 0 -64px;
 }
 
-.icon-tackerorg {
+i.tackerorg {
     background-position: 0 -80px;
 }
 
-.icon-ted {
+i.ted {
     background-position: 0 -96px;
 }
 
-.icon-link {
+i.link {
     background-position: 0 -112px;
 }
 
-.icon-coderbyheart {
+i.coderbyheart {
     background-position: 0 -128px;
 }
 
-.icon-qrcode {
+i.qrcode {
     background-position: 0 -144px;
 }
 
-.icon-tedx {
+i.tedx {
     background-position: 0 -160px;
 }
 
-.icon-xing {
+i.xing {
     background-position: 0 -176px;
 }
 
-.icon-linkedin {
+i.linkedin {
     background-position: 0 -192px;
 }
 
-.icon-flickr {
+i.flickr {
     background-position: 0 -208px;
 }
 
-.icon-youtube {
+i.youtube {
     background-position: 0 -224px;
 }
 
-.icon-lastfm {
+i.lastfm {
     background-position: 0 -240px;
 }
 
-.icon-pear {
+i.pear {
     background-position: 0 -256px;
 }
 
-.icon-markusstudiert {
+i.markusstudiert {
     background-position: 0 -272px;
 }
 
-.icon-github {
+i.github {
     background-position: 0 -288px;
 }
 
-.icon-delicious {
+i.delicious {
     background-position: 0 -304px;
 }
 
-.icon-foursquare {
+i.foursquare {
     background-position: 0 -320px;
 }
 
-.icon-retext {
+i.retext {
     background-position: 0 -336px;
 }
 
-.icon-qype {
+i.qype {
     background-position: 0 -352px;
 }
 
-.icon-mail {
+i.mail {
     background-position: 0 -368px;
 }
 
-.icon-offenraum {
+i.offenraum {
     background-position: 0 -384px;
 }

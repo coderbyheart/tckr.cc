@@ -19,14 +19,18 @@
         padding-top: 2%;
     }
 
-    header {
+    nav.desktop, header {
         display: none;
     }
 }
 
 @media screen and (min-width: 600px) {
-    nav {
+    nav.mobile {
         display: none;
+    }
+
+    nav.desktop {
+        display: block;
     }
 
     #main {

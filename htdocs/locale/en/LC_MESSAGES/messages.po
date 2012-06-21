@@ -1,0 +1,135 @@
+# Meta / Seiten-Titel
+msgid "titel"
+msgstr "Contact and profile"
+
+# Meta / META-Tag description
+msgid "description"
+msgstr "Contact information and personal profile of Markus Tacker, Concept and development of complex web applications, technical project management from Offenbach, Germany."
+
+# Navigation / Kontakt
+msgid "nav.kontakt"
+msgstr "Contact"
+
+# Navigation / Sprache wechseln
+msgid "nav.switchlang"
+msgstr "Deutsch"
+
+# Navigation / Titel Sprache wechseln
+msgid "nav.switchlang.titel"
+msgstr "Diese Seite auf Deutsch ansehen"
+
+# Navigation / Über mich
+msgid "nav.about"
+msgstr "About me"
+
+# Navigation / Links
+msgid "nav.links"
+msgstr "Links"
+
+# Kontakt / Überschrift
+msgid "kontakt.headline"
+msgstr "Contact"
+
+# Kontakt / Job-Titel
+msgid "kontakt.jobtitle"
+msgstr "Concept and development of complex web applications, technical project management"
+
+# Organisationen / coder::by(♥)
+msgid "organizations.cbh.description"
+msgstr "I am a freelance web application developer from Germany. I ♥ code."
+
+# Organisationen / re:text
+msgid "organizations.retext.description"
+msgstr "re:text manages all text-related tasks during the creation of information and communication media in a seamingless way."
+
+# Organisationen / offenraum
+msgid "organizations.offenraum.description"
+msgstr "offenraum is a coworking space located in the rhein-main-area south of Frankfurt in Offenbach near the central station, Hassia Fabrik, and municipal hospital."
+
+# Organisationen / TEDx RheinMain
+msgid "organizations.tedx.description"
+msgstr "TEDx is a program of local, self-organized events that bring people together to share a TED-like experience."
+
+# Organisationen / PEAR
+msgid "organizations.pear.description"
+msgstr "PEAR is a framework and distribution system for reusable PHP components."
+
+# Kontakt / Label / Telefon
+msgid "kontakt.telefon.label"
+msgstr "Phone"
+
+# Kontakt / Label / E-Mail
+msgid "kontakt.email.label"
+msgstr "E-mail"
+
+# Kontakt / Label / Web
+msgid "kontakt.web.label"
+msgstr "Web"
+
+# Kontakt / Label / Twitter
+msgid "kontakt.twitter.label"
+msgstr "Twitter"
+
+# Kontakt / Verbinden …
+msgid "kontakt.connect"
+msgstr "Connect …"
+
+# Kontakt / VCF-Link
+msgid "kontakt.vcf"
+msgstr "Contact data as [link]VCF-file[/link]."
+
+# Kontakt / QR-Code
+msgid "kontakt.qr"
+msgstr "Show the [link]QR-Code[/link] for this page."
+
+# Über mich / Titel
+msgid "about.headline"
+msgstr "About me"
+
+# Über mich / Intro
+msgid "about.intro"
+msgstr "Due to my apprenticeship with an emphasis on design, many years of professional experience working as employee or self-employed and the study of media computer science at the university of applied sciences RheinMain I can build the bridge between design and technology, concept and realisation and can contribute profound professional know-how to the creation of complex, web-based applications."
+
+# Über mich / coder::by(♥)
+msgid "about.cbh"
+msgstr "Besides my studies I am working as [coderbyheart] on a freelance basis for agencies and SMEs where I am responsible for the conception and realisation of complex web-based applications and also for technical project management."
+
+# Über mich / re:text
+msgid "about.retext"
+msgstr "This year I'll graduate in media computer science (B.Sc.) and start developing [retext], a service which organizes the workflow related to texts in information- and communication media."
+
+# Über mich / offenraum
+msgid "about.offenraum"
+msgstr "A side-project I am working on is the preparation for opening of the coworking space [offenraum] in Offenbach."
+
+# Über mich / diverse
+msgid "about.misc"
+msgstr "If I have some spare time on my hands I take pictures. I like to cook and even more to go on vacation. Basically, I am interested in everything which can be sculptured by bits and happens „under the hood“ of web applications. From time to time I look after my packages at [pear]. Since this year I am part of the team organizing the [tedx]."
+
+# Links / Blog Beschreibung
+msgid"link.blog.about"
+msgstr "In my personal blog I mostly write about vacations, movies and cooking."
+
+# Links / Markus studiert! Beschreibung
+msgid"link.markusstudiert.about"
+msgstr "There I write about my media computer sciences studies at the university of applied sciences RheinMain."
+
+# Links / flickr Beschreibung
+msgid"link.flickr.about"
+msgstr "My pictures are there."
+
+# Links / Amazon Beschreibung
+msgid"link.amazon.about"
+msgstr "Big and small things I am missing…"
+
+# Links / Amazon Titel
+msgid "link.amazon.title"
+msgstr "Amazon wishlist"
+
+# Links / Weitere Profile
+msgid "link.profiles"
+msgstr "Other profiles of me on the web:"
+
+# Footer
+msgid "footer"
+msgstr "E-mail icon by Marc Haumann, world icon by Johan H. W. Basberg, by [nounproject].\nAll other logos and trademarks used are the property of their respective owners.\n © 2012 [markustacker]. All rights reserved. [github]Source code on GitHub.[/github]"
