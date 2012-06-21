@@ -11,10 +11,6 @@
         margin-bottom: 2%;
     }
 
-    aside {
-        margin-bottom: 2%;
-    }
-
     #main {
         padding-top: 2%;
     }
@@ -37,7 +33,7 @@
         padding-top: 2em;
     }
 
-    aside {
+    #left {
         width: 38%;
         float: left;
         margin-left: 1%;

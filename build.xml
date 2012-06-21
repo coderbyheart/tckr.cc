@@ -63,10 +63,23 @@
 
     </target>
 
+    <target name="gettext">
+        <exec executable="msgfmt">
+            <arg value="${htdocs.dir}/locale/de/LC_MESSAGES/messages.po"/>
+            <arg value="-o"/>
+            <arg value="${htdocs.dir}/locale/de/LC_MESSAGES/messages.mo"/>
+        </exec>
+        <exec executable="msgfmt">
+            <arg value="${htdocs.dir}/locale/en/LC_MESSAGES/messages.po"/>
+            <arg value="-o"/>
+            <arg value="${htdocs.dir}/locale/en/LC_MESSAGES/messages.mo"/>
+        </exec>
+    </target>
+
     <target name="clean">
         <delete dir="${build.dir}"/>
     </target>
 
-    <target name="main" depends="compress,concat,clean"/>
+    <target name="main" depends="gettext,compress,concat,clean"/>
 
 </project>

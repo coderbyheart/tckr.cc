@@ -10,6 +10,10 @@ msgstr "Kontaktinformationen und persönliches Profil von Markus Tacker, Konzept
 msgid "nav.kontakt"
 msgstr "Kontakt"
 
+# Navigation / Hire me!
+msgid "nav.hireme"
+msgstr "Job?"
+
 # Navigation / Sprache wechseln
 msgid "nav.switchlang"
 msgstr "English"
@@ -33,6 +37,14 @@ msgstr "Kontakt"
 # Kontakt / Job-Titel
 msgid "kontakt.jobtitle"
 msgstr "Konzeption und Realisierung von komplexen Webanwendungen, technische Projektleitung"
+
+# Hire me! / Titel
+msgid "hireme.headline"
+msgstr "Job-Angebot?"
+
+# Hire me! / Text
+msgid "hireme.text"
+msgstr "Wenn Du ein Arbeitgeber bist, bei dem der Mensch innerhalb und außerhalb des Unternehmens an erster Stelle kommt, und Du eine Stelle bietest, in der ich ein Team formen und ein bedeutendes Produkt entwickeln kann, das die Möglichkeit hat, die Art und Weise wie Menschen leben oder arbeiten zu verändern, mit 60k+ pro Jahr und der 20%-Zeit, dann kontaktiere mich! Nicht? Auch kein Problem, [retext]ich versuche das dann auf eigene Faust[/retext]."
 
 # Organisationen / coder::by(♥)
 msgid "organizations.cbh.description"

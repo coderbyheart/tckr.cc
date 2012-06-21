@@ -69,7 +69,7 @@ function _e($message, array $replace = null)
     <h1>Markus Tacker &middot; <?php _e('titel'); ?></h1>
 </header>
 <nav class="gradient mobile">
-    <a href="#contact" class="internal"><?php _e('nav.kontakt'); ?></a>
+    <a href="#hireme" class="internal"><?php _e('nav.hireme'); ?></a>
     <a href="#about" class="internal"><?php _e('nav.about'); ?></a>
     <a href="#links" class="internal"><?php _e('nav.links'); ?></a>
     <a href="/<?php echo $switchlang; ?>" class="internal" lang="<?php echo $htmlswitchlang; ?>"
@@ -81,69 +81,79 @@ function _e($message, array $replace = null)
             <a href="/<?php echo $switchlang; ?>" class="internal" lang="<?php echo $htmlswitchlang; ?>"
                title="<?php _e('nav.switchlang.titel'); ?>"><em><?php _e('nav.switchlang'); ?></em></a>
         </nav>
-        <aside class="box" id="contact">
-            <h2 class="boxtitle gradient"><?php _e('kontakt.headline'); ?></h2>
+        <div id="left">
+            <aside class="box" id="contact">
+                <h2 class="boxtitle gradient"><?php _e('kontakt.headline'); ?></h2>
 
-            <div class="boxbody gradient">
-                <p>
-                    <strong itemprop="name">Markus Tacker</strong>
-                </p>
+                <div class="boxbody gradient">
+                    <p>
+                        <strong itemprop="name">Markus Tacker</strong>
+                    </p>
 
-                <p>
+                    <p>
                     <span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a
                         href="http://coderbyheart.de/" itemprop="url" rel="me"> <span itemprop="name">coder::by(<i
                         class="coderbyheart">♥</i>);</span></a><span itemprop="description"
                                                                      class="hidden"><?php _e('organizations.cbh.description'); ?></span></span><br>
-                    <span itemprop="jobTitle"><?php _e('kontakt.jobtitle'); ?></span>
-                </p>
+                        <span itemprop="jobTitle"><?php _e('kontakt.jobtitle'); ?></span>
+                    </p>
 
-                <p>
+                    <p>
                             <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                                 <span itemprop="streetAddress">Senefelderstr. 63</span><br>
                                 <span itemprop="postalCode">63069</span>
                                 <span itemprop="addressLocality">Offenbach</span>
                                 <span class="hidden"><span itemprop="addressRegion">Hessen</span>,
                                     <span itemprop="addressCountry">Deutschland</span></span></span>
-                </p>
-                <dl class="icons">
-                    <dt><?php _e('kontakt.telefon.label'); ?></dt>
-                    <dd itemprop="telephone">
-                        <i class="phone"></i><a href="tel:+491796678859">+49 (0) 179 667 88 59</a>
-                    </dd>
-                    <dt></dt>
-                    <dd>
-                        <i class="mail"></i><a href="mailto:m@tckr.cc" itemprop="email">m@tckr.cc</a>
-                    </dd>
-                    <dt><?php _e('kontakt.email.label'); ?></dt>
-                    <dd>
-                        <i class="link"></i><a href="http://tckr.cc/" itemprop="url" rel="author">tckr.cc</a>
-                    </dd>
-                    <dt><?php _e('kontakt.email.label'); ?></dt>
-                    <dd>
-                        <i class="twitter"></i><a href="http://twitter.com/markustacker">@markustacker</a>
-                    </dd>
-                </dl>
-                <h3><?php _e('kontakt.connect'); ?></h3>
-                <ul class="icons f f-1-3">
-                    <li>
-                        <i class="xing"></i><a href="https://www.xing.com/profile/Markus_Tacker" rel="me">XING</a>
-                    </li>
-                    <li>
-                        <i class="linkedin"></i><a href="http://www.linkedin.com/in/markustacker" rel="me">LinkedIn</a>
-                    </li>
-                    <li>
-                        <i class="gplus"></i><a href="http://profiles.google.com/markus.tacker" rel="me">Google+</a>
-                    </li>
-                </ul>
-                <div class="clearfix"></div>
-                <hr>
-                <p>
-                    <small><?php _e('kontakt.vcf', array('link' => '<a href="MarkusTacker.vcf">|</a>')); ?>
-                        <br><?php _e('kontakt.qr', array('link' => '<a href="qrcode.html"><i class="qrcode"></i> |</a>')); ?>
-                    </small>
-                </p>
-            </div>
-        </aside>
+                    </p>
+                    <dl class="icons">
+                        <dt><?php _e('kontakt.telefon.label'); ?></dt>
+                        <dd itemprop="telephone">
+                            <i class="phone"></i><a href="tel:+491796678859">+49 (0) 179 667 88 59</a>
+                        </dd>
+                        <dt></dt>
+                        <dd>
+                            <i class="mail"></i><a href="mailto:m@tckr.cc" itemprop="email">m@tckr.cc</a>
+                        </dd>
+                        <dt><?php _e('kontakt.email.label'); ?></dt>
+                        <dd>
+                            <i class="link"></i><a href="http://tckr.cc/" itemprop="url" rel="author">tckr.cc</a>
+                        </dd>
+                        <dt><?php _e('kontakt.email.label'); ?></dt>
+                        <dd>
+                            <i class="twitter"></i><a href="http://twitter.com/markustacker">@markustacker</a>
+                        </dd>
+                    </dl>
+                    <h3><?php _e('kontakt.connect'); ?></h3>
+                    <ul class="icons f f-1-3">
+                        <li>
+                            <i class="xing"></i><a href="https://www.xing.com/profile/Markus_Tacker" rel="me">XING</a>
+                        </li>
+                        <li>
+                            <i class="linkedin"></i><a href="http://www.linkedin.com/in/markustacker"
+                                                       rel="me">LinkedIn</a>
+                        </li>
+                        <li>
+                            <i class="gplus"></i><a href="http://profiles.google.com/markus.tacker" rel="me">Google+</a>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                    <hr>
+                    <p>
+                        <small><?php _e('kontakt.vcf', array('link' => '<a href="MarkusTacker.vcf">|</a>')); ?>
+                            <br><?php _e('kontakt.qr', array('link' => '<a href="qrcode.html"><i class="qrcode"></i> |</a>')); ?>
+                        </small>
+                    </p>
+                </div>
+            </aside>
+            <aside class="box" id="hireme">
+                <h2 class="boxtitle gradient"><?php _e('hireme.headline'); ?></h2>
+
+                <div class="boxbody gradient">
+                    <p><?php _e('hireme.text', array('retext' => '<a href="http://retext.it/" rel="me">|</a>')); ?></p>
+                </div>
+            </aside>
+        </div>
         <article class="box">
             <h2 id="about" class="boxtitle gradient"><?php _e('about.headline'); ?></h2>
 

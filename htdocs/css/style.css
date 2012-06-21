@@ -112,6 +112,10 @@ header {
     margin: 0 auto;
 }
 
+aside {
+    margin-bottom: 5%;
+}
+
 .box {
     border-radius: 5px;
     border: 1px solid #111;
