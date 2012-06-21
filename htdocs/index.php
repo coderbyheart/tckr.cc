@@ -5,8 +5,7 @@ $langs = array('de', 'en');
 $langSpecs = array('de' => 'de-de', 'en' => 'en-us');
 $lang = isset($matches[1]) && in_array($matches[1], $langs) ? $matches[1] : 'de';
 $htmlLang = $langSpecs[$lang];
-$localeLang = substr($htmlLang, 0, 2) . '_' . strtoupper(substr($htmlLang, -2));
-
+$localeLang = substr($htmlLang, 0, 2) . '_' . strtoupper(substr($htmlLang, -2)) . '.utf8';
 $switchlang = array_shift(array_filter($langs, function($el) use($lang)
 {
     return $el !== $lang;
