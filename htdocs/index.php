@@ -109,39 +109,38 @@ function _e($message, array $replace = null)
                     <dl class="icons">
                         <dt><?php _e('kontakt.telefon.label'); ?></dt>
                         <dd itemprop="telephone">
-                            <i class="phone"></i><a href="tel:+491796678859">+49 (0) 179 667 88 59</a>
+                            <a href="tel:+491796678859"><i class="phone"></i>+49 (0) 179 667 88 59</a>
                         </dd>
                         <dt></dt>
                         <dd>
-                            <i class="mail"></i><a href="mailto:m@tckr.cc" itemprop="email">m@tckr.cc</a>
+                            <a href="mailto:m@tckr.cc" itemprop="email"><i class="mail"></i>m@tckr.cc</a>
                         </dd>
                         <dt><?php _e('kontakt.email.label'); ?></dt>
                         <dd>
-                            <i class="link"></i><a href="http://tckr.cc/" itemprop="url" rel="author">tckr.cc</a>
+                            <a href="http://tckr.cc/" itemprop="url" rel="author"><i class="link"></i>tckr.cc</a>
                         </dd>
                         <dt><?php _e('kontakt.email.label'); ?></dt>
                         <dd>
-                            <i class="twitter"></i><a href="http://twitter.com/markustacker">@markustacker</a>
+                            <a href="http://twitter.com/markustacker"><i class="twitter"></i>@markustacker</a>
                         </dd>
                     </dl>
                     <h3><?php _e('kontakt.connect'); ?></h3>
                     <ul class="icons f f-1-3">
                         <li>
-                            <i class="xing"></i><a href="https://www.xing.com/profile/Markus_Tacker" rel="me">XING</a>
+                            <a href="https://www.xing.com/profile/Markus_Tacker" rel="me"><i class="xing"></i>XING</a>
                         </li>
                         <li>
-                            <i class="linkedin"></i><a href="http://www.linkedin.com/in/markustacker"
-                                                       rel="me">LinkedIn</a>
+                            <a href="http://www.linkedin.com/in/markustacker" rel="me"><i class="linkedin"></i>LinkedIn</a>
                         </li>
                         <li>
-                            <i class="gplus"></i><a href="http://profiles.google.com/markus.tacker" rel="me">Google+</a>
+                            <a href="http://profiles.google.com/markus.tacker" rel="me"><i class="gplus"></i>Google+</a>
                         </li>
                     </ul>
                     <div class="clearfix"></div>
                     <hr>
                     <p>
                         <small><?php _e('kontakt.vcf', array('link' => '<a href="MarkusTacker.vcf">|</a>')); ?>
-                            <br><?php _e('kontakt.qr', array('link' => '<a href="qrcode.html"><i class="qrcode"></i> |</a>')); ?>
+                            <br><?php _e('kontakt.qr', array('link' => '<a href="qrcode.html"><i class="qrcode"></i>|</a>')); ?>
                         </small>
                     </p>
                 </div>
@@ -162,68 +161,68 @@ function _e($message, array $replace = null)
                     src="http://farm7.staticflickr.com/6147/6004944000_10cf9fb091.jpg" alt="Markus Tacker" class="me"
                     itemprop="image"/></a>
 
-                <p><?php _e('about.intro'); ?></p>
+                <p><?php _e('about.intro', array('numyears' => ((int)date('Y') - 1998))); ?></p>
 
                 <p><?php _e('about.cbh', array('coderbyheart' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="http://coderbyheart.de/" itemprop="url" rel="me"> <span itemprop="name">coder::by(<i class="coderbyheart">♥</i>);</span></a><span itemprop="description" class="hidden">' . _g('organizations.cbh.description') . '</span></span>')); ?></p>
 
-                <p><?php _e('about.retext', array('retext' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><i class="retext"></i><a href="http://retext.it/" itemprop="url" rel="me"><span itemprop="name">re:text</span></a><span itemprop="description" class="hidden">' . _g('organizations.retext.description') . '</span></span>')); ?></p>
+                <p><?php _e('about.retext', array('retext' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="http://retext.it/" itemprop="url" rel="me"><i class="retext"></i><span itemprop="name">re:text</span></a><span itemprop="description" class="hidden">' . _g('organizations.retext.description') . '</span></span>')); ?></p>
 
-                <p><?php _e('about.offenraum', array('offenraum' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><i class="offenraum"></i><a href="http://offenraum.de/" itemprop="url" rel="me"><span itemprop="name">offenraum</span></a><span itemprop="description" class="hidden">' . _g('organizations.offenraum.description') . '</span></span>')); ?></p>
+                <p><?php _e('about.offenraum', array('offenraum' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="http://offenraum.de/" itemprop="url" rel="me"><i class="offenraum"></i><span itemprop="name">offenraum</span></a><span itemprop="description" class="hidden">' . _g('organizations.offenraum.description') . '</span></span>')); ?></p>
 
-                <p><?php _e('about.misc', array('pear' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><i class="pear"></i><a href="http://pear.php.net/" itemprop="url"><span itemprop="name">PEAR</span></a><span itemprop="description" class="hidden">' . _g('organizations.pear.description') . '</span></span>', 'tedx' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><i class="tedx"></i><a href="http://www.tedxrheinmain.de/" itemprop="url"><span itemprop="name">TEDx RheinMain</span></a><span itemprop="description" class="hidden">' . _g('organizations.tedx.description') . '</span></span>')); ?></p>
+                <p><?php _e('about.misc', array('pear' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://pear.php.net/" itemprop="url"><i class="pear"></i><span itemprop="name">PEAR</span></a><span itemprop="description" class="hidden">' . _g('organizations.pear.description') . '</span></span>', 'tedx' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://www.tedxrheinmain.de/" itemprop="url"><i class="tedx"></i><span itemprop="name">TEDx RheinMain</span></a><span itemprop="description" class="hidden">' . _g('organizations.tedx.description') . '</span></span>')); ?></p>
 
                 <h3 id="links">Weitere Links</h3>
                 <dl>
                     <dt>
-                        <i class="tackerorg"></i><a href="http://m.tacker.org/blog/" rel="me">Blog</a>
+                        <a href="http://m.tacker.org/blog/" rel="me"><i class="tackerorg"></i>Blog</a>
                     </dt>
                     <dd><?php _e('link.blog.about'); ?></dd>
                     <dt>
-                        <i class="markusstudiert"></i><a href="http://markusstudiert.de/" rel="me">Markus studiert!</a>
+                        <a href="http://markusstudiert.de/" rel="me"><i class="markusstudiert"></i>Markus studiert!</a>
                     </dt>
                     <dd><?php _e('link.markusstudiert.about'); ?></dd>
                     <dt>
-                        <i class="flickr"></i><a href="http://www.flickr.com/people/tacker/" rel="me">flickr</a>
+                        <a href="http://www.flickr.com/people/tacker/" rel="me"><i class="flickr"></i>flickr</a>
                     </dt>
                     <dd><?php _e('link.flickr.about'); ?></dd>
                     <dt>
-                        <i class="amazon"></i><a
-                        href="https://www.amazon.de/gp/pdp/profile/ATC8QVKE79XBW/?ie=UTF8&amp;site-redirect=de&amp;tag=mtaor-21&amp;linkCode=ur2&amp;camp=1638&amp;creative=19454"><?php _e('link.amazon.title'); ?></a>
+                        <a
+                        href="https://www.amazon.de/gp/pdp/profile/ATC8QVKE79XBW/?ie=UTF8&amp;site-redirect=de&amp;tag=mtaor-21&amp;linkCode=ur2&amp;camp=1638&amp;creative=19454"><i class="amazon"></i><?php _e('link.amazon.title'); ?></a>
                     </dt>
                     <dd><?php _e('link.amazon.about'); ?></dd>
                 </dl>
                 <p><?php _e('link.profiles'); ?></p>
                 <ul class="icons f f-1-4">
                     <li>
-                        <i class="github"></i><a href="https://github.com/tacker" rel="me"
-                                                 title="tacker@GitHub">GitHub</a>
+                        <a href="https://github.com/tacker" rel="me"
+                                                 title="tacker@GitHub"><i class="github"></i>GitHub</a>
                     </li>
                     <li>
-                        <i class="ted"></i><a href="http://www.ted.com/profiles/1205018" rel="me"
-                                              title="TED-Profil">TED</a>
+                        <a href="http://www.ted.com/profiles/1205018" rel="me"
+                                              title="TED-Profil"><i class="ted"></i>TED</a>
                     </li>
                     <li>
-                        <i class="pear"></i><a href="http://pear.php.net/user/tacker" rel="me"
-                                               title="tacker@PEAR">PEAR</a>
+                        <a href="http://pear.php.net/user/tacker" rel="me"
+                                               title="tacker@PEAR"><i class="pear"></i>PEAR</a>
                     </li>
                     <li>
-                        <i class="foursquare"></i><a href="https://de.foursquare.com/markustacker" rel="me"
-                                                     title="markustacker@foursquare">foursquare</a>
+                        <a href="https://de.foursquare.com/markustacker" rel="me"
+                                                     title="markustacker@foursquare"><i class="foursquare"></i>foursquare</a>
                     </li>
                     <li>
-                        <i class="delicious"></i><a href="http://delicious.com/tacker" rel="me"
-                                                    title="tacker@delicious">Delicious</a>
+                        <a href="http://delicious.com/tacker" rel="me"
+                                                    title="tacker@delicious"><i class="delicious"></i>Delicious</a>
                     </li>
                     <li>
-                        <i class="lastfm"></i><a href="http://www.lastfm.de/user/m.tacker/" rel="me"
-                                                 title="m.tacker@lastfm">lastFM</a>
+                        <a href="http://www.lastfm.de/user/m.tacker/" rel="me"
+                                                 title="m.tacker@lastfm"><i class="lastfm"></i>lastFM</a>
                     </li>
                     <li>
-                        <i class="qype"></i><a href="http://www.qype.com/people/tacker" rel="me" title="tacker@qype">Qype</a>
+                        <a href="http://www.qype.com/people/tacker" rel="me" title="tacker@qype"><i class="qype"></i>Qype</a>
                     </li>
                     <li>
-                        <i class="youtube"></i><a href="http://www.youtube.com/user/markustacker" rel="me"
-                                                  title="markustacker@youtube">YouTube</a>
+                        <a href="http://www.youtube.com/user/markustacker" rel="me"
+                                                  title="markustacker@youtube"><i class="youtube"></i>YouTube</a>
                     </li>
                 </ul>
                 <div class="clearfix"></div>

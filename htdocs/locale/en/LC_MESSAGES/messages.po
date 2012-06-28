@@ -36,7 +36,7 @@ msgstr "Contact"
 
 # Kontakt / Job-Titel
 msgid "kontakt.jobtitle"
-msgstr "Concept and development of complex web applications, technical project management"
+msgstr "conception and development of complex web-based applications, technical project management"
 
 # Organisationen / coder::by(♥)
 msgid "organizations.cbh.description"
@@ -100,7 +100,7 @@ msgstr "About me"
 
 # Über mich / Intro
 msgid "about.intro"
-msgstr "Due to my apprenticeship with an emphasis on design, many years of professional experience working as employee or self-employed and the study of media computer science at the university of applied sciences RheinMain I can build the bridge between design and technology, concept and realisation and can contribute profound professional know-how to the creation of complex, web-based applications."
+msgstr "Due to my apprenticeship with an emphasis on design, [numyears]+ years of professional experience working as employee or self-employed and the study of media computer science at the university of applied sciences RheinMain I can build the bridge between design and technology, conception and realisation and can contribute profound professional know-how to the creation of complex web-based applications."
 
 # Über mich / coder::by(♥)
 msgid "about.cbh"

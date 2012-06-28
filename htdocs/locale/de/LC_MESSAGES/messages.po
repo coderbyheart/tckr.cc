@@ -100,7 +100,7 @@ msgstr "Über mich"
 
 # Über mich / Intro
 msgid "about.intro"
-msgstr "Dank einer Ausbildung mit Schwerpunkt Gestaltung, langjähriger Berufserfahrung als Angestellter und Selbständiger sowie dem Studium der Medieninformatik an der Hochschule RheinMain kann ich den Bogen zwischen Design und Technik, Konzept und Realisierung schlagen und in der Projektarbeit tiefgreifendes fachliches Know-How zu komplexen, internetbasierten Anwendungen zum Einsatz bringen."
+msgstr "Dank einer Ausbildung mit Schwerpunkt Gestaltung, mehr als [numyears] Jahren Berufserfahrung als Angestellter und Selbständiger sowie dem Studium der Medieninformatik an der Hochschule RheinMain kann ich den Bogen zwischen Design und Technik, Konzept und Realisierung schlagen und in der Projektarbeit tiefgreifendes fachliches Know-How zu komplexen, internetbasierten Anwendungen zum Einsatz bringen."
 
 # Über mich / coder::by(♥)
 msgid "about.cbh"

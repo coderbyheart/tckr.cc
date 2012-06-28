@@ -180,8 +180,8 @@ i {
     text-indent: -9000px;
 }
 
-i + a {
-    margin-left: 4px;
+a > i {
+    margin-right: 4px;
 }
 
 dl.icons dt {
