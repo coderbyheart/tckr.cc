@@ -178,7 +178,7 @@ function _e($message, array $replace = null)
                     </dt>
                     <dd><?php _e('link.blog.about'); ?></dd>
                     <dt>
-                        <a href="http://markusstudiert.de/" rel="me"><i class="markusstudiert"></i>Markus studiert!</a>
+                        <a href="http://studium.coderbyheart.de/" rel="me"><i class="markusstudiert"></i>Markus studiert!</a>
                     </dt>
                     <dd><?php _e('link.markusstudiert.about'); ?></dd>
                     <dt>
