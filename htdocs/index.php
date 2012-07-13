@@ -130,7 +130,7 @@ function _e($message, array $replace = null)
                             <a href="https://www.xing.com/profile/Markus_Tacker" rel="me"><i class="xing"></i>XING</a>
                         </li>
                         <li>
-                            <a href="http://www.linkedin.com/in/markustacker" rel="me"><i class="linkedin"></i>LinkedIn</a>
+                            <a href="http://www.linkedin.com/profile/view?id=26414365" rel="me"><i class="linkedin"></i>LinkedIn</a>
                         </li>
                         <li>
                             <a href="http://profiles.google.com/markus.tacker" rel="me"><i class="gplus"></i>Google+</a>
