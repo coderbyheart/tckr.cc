@@ -104,11 +104,11 @@ msgstr "Dank einer Ausbildung mit Schwerpunkt Gestaltung, mehr als [numyears] Ja
 
 # Über mich / coder::by(♥)
 msgid "about.cbh"
-msgstr "Neben meinem Studium arbeite ich als [coderbyheart] frei für Agenturen und mittelständische Unternehmen. Dort übernehme ich neben der Konzeption und Realisierung von komplexen Webanwendungen auch die technische Projektleitung."
+msgstr "Als [coderbyheart] arbeite ich frei für Agenturen und mittelständische Unternehmen. Dort übernehme ich neben der Konzeption und Realisierung von komplexen Webanwendungen auch die technische Projektleitung."
 
 # Über mich / re:text
 msgid "about.retext"
-msgstr "In diesem Jahr werde ich mein Medieninformatik-Studium abschließen und anschließend [retext] entwickeln, einen Dienst, der den Workflow rund um Texte in Informations- und Kommunikationsmedien organisiert und nachvollziehbar macht."
+msgstr "In diesem Jahr habe ich mein Medieninformatik-Studium mit der Gesamtnote 1,5 (ECTS-Grad A) abgeschlossen. Meine Bachelor-Thesis zum Thema <em>Konzeption und Entwurf einer Anwendung zur Verwaltung von Texten für Informations- und Kommunikationsmedienprodukte</em> ([abstract]Abstract[/abstract]) wurde mit der Note 1,0 bewertet. Ich widme mich nun der Umsetzung dessen, was ich in der Thesis ausgearbeitet habe: [retext], einem Dienst, der den Workflow rund um Texte in Informations- und Kommunikationsmedien organisiert und nachvollziehbar macht."
 
 # Über mich / offenraum
 msgid "about.offenraum"
@@ -119,19 +119,19 @@ msgid "about.misc"
 msgstr "Wenn ich Zeit habe, mache ich ab und zu Fotos. Ich koche gerne und fahre noch lieber in den Urlaub. Mich interessiert eigentlich alles, was sich in Bits formen lässt und „unter der Haube“ von Webanwendungen passiert. Gelegentlich kümmere ich mich um meine Pakete bei [pear] und engagiere mich seit diesem Jahr bei der Organisiation der [tedx]."
 
 # Links / Blog Beschreibung
-msgid"link.blog.about"
+msgid "link.blog.about"
 msgstr "In meinem privaten Blog schreibe ich zu vor allem über Urlaub, Kino und Kochen."
 
 # Links / Markus studiert! Beschreibung
-msgid"link.markusstudiert.about"
+msgid "link.markusstudiert.about"
 msgstr "Hier schreibe ich über meine Studium der Medieninformatik an der Hochschule RheinMain."
 
 # Links / flickr Beschreibung
-msgid"link.flickr.about"
+msgid "link.flickr.about"
 msgstr "Meine Fotos finden sich hier."
 
 # Links / Amazon Beschreibung
-msgid"link.amazon.about"
+msgid "link.amazon.about"
 msgstr "Große und kleine Dinge, die mir noch fehlen…"
 
 # Links / Amazon Titel
@@ -141,6 +141,10 @@ msgstr "Amazon Wunschliste"
 # Links / Weitere Profile
 msgid "link.profiles"
 msgstr "Meine weiteren Profile im Netz:"
+
+# Links / Weitere Links
+msgid "link.more"
+msgstr "Weitere Links"
 
 # Footer
 msgid "footer"

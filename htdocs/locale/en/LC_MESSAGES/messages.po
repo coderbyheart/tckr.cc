@@ -104,11 +104,11 @@ msgstr "Due to my apprenticeship with an emphasis on design, [numyears]+ years o
 
 # Über mich / coder::by(♥)
 msgid "about.cbh"
-msgstr "Besides my studies I am working as [coderbyheart] on a freelance basis for agencies and SMEs where I am responsible for the conception and realisation of complex web-based applications and also for technical project management."
+msgstr "I am working as [coderbyheart] on a freelance basis for agencies and SMEs where I am responsible for the conception and realisation of complex web-based applications and also for technical project management."
 
 # Über mich / re:text
 msgid "about.retext"
-msgstr "This year I'll graduate in media computer science (B.Sc.) and start developing [retext], a service which organizes the workflow related to texts in information- and communication media."
+msgstr "This year I graduated in media computer science (B.Sc.) and received the grade 1.5 (ECTS grade A). My bachelor-thesis about <em>Conception and design of an application for the managament of text for information and communication media</em> ([abstract]german abstract[/abstract]) received the grade 1.0. I am now converting my thesis into a real product: [retext], a service which organizes the workflow related to texts in information- and communication media."
 
 # Über mich / offenraum
 msgid "about.offenraum"
@@ -141,6 +141,10 @@ msgstr "Amazon wishlist"
 # Links / Weitere Profile
 msgid "link.profiles"
 msgstr "Other profiles of me on the web:"
+
+# Links / Weitere Links
+msgid "link.more"
+msgstr "More links"
 
 # Footer
 msgid "footer"

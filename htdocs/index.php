@@ -111,15 +111,15 @@ function _e($message, array $replace = null)
                         <dd itemprop="telephone">
                             <a href="tel:+491796678859"><i class="phone"></i>+49 (0) 179 667 88 59</a>
                         </dd>
-                        <dt></dt>
+                        <dt><?php _e('kontakt.email.label'); ?></dt>
                         <dd>
                             <a href="mailto:m@tckr.cc" itemprop="email"><i class="mail"></i>m@tckr.cc</a>
                         </dd>
-                        <dt><?php _e('kontakt.email.label'); ?></dt>
+                        <dt><?php _e('kontakt.web.label'); ?></dt>
                         <dd>
                             <a href="http://tckr.cc/" itemprop="url" rel="author"><i class="link"></i>tckr.cc</a>
                         </dd>
-                        <dt><?php _e('kontakt.email.label'); ?></dt>
+                        <dt><?php _e('kontakt.twitter.label'); ?></dt>
                         <dd>
                             <a href="http://twitter.com/markustacker"><i class="twitter"></i>@markustacker</a>
                         </dd>
@@ -163,15 +163,15 @@ function _e($message, array $replace = null)
 
                 <p><?php _e('about.intro', array('numyears' => ((int)date('Y') - 1998))); ?></p>
 
-                <p><?php _e('about.cbh', array('coderbyheart' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="http://coderbyheart.de/" itemprop="url" rel="me"> <span itemprop="name">coder::by(<i class="coderbyheart">♥</i>);</span></a><span itemprop="description" class="hidden">' . _g('organizations.cbh.description') . '</span></span>')); ?></p>
+                <p><?php _e('about.retext', array('retext' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="http://retext.it/" itemprop="url" rel="me"><i class="retext"></i><span itemprop="name">re:text</span></a><span itemprop="description" class="hidden">' . _g('organizations.retext.description') . '</span></span>', 'abstract' => '<a href="http://studium.coderbyheart.de/wp-content/uploads/2012/06/Zusammenfassung.pdf">|</a>')); ?></p>
 
-                <p><?php _e('about.retext', array('retext' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="http://retext.it/" itemprop="url" rel="me"><i class="retext"></i><span itemprop="name">re:text</span></a><span itemprop="description" class="hidden">' . _g('organizations.retext.description') . '</span></span>')); ?></p>
+                <p><?php _e('about.cbh', array('coderbyheart' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="http://coderbyheart.de/" itemprop="url" rel="me"> <span itemprop="name">coder::by(<i class="coderbyheart">♥</i>);</span></a><span itemprop="description" class="hidden">' . _g('organizations.cbh.description') . '</span></span>')); ?></p>
 
                 <p><?php _e('about.offenraum', array('offenraum' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="http://offenraum.de/" itemprop="url" rel="me"><i class="offenraum"></i><span itemprop="name">offenraum</span></a><span itemprop="description" class="hidden">' . _g('organizations.offenraum.description') . '</span></span>')); ?></p>
 
                 <p><?php _e('about.misc', array('pear' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://pear.php.net/" itemprop="url"><i class="pear"></i><span itemprop="name">PEAR</span></a><span itemprop="description" class="hidden">' . _g('organizations.pear.description') . '</span></span>', 'tedx' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://www.tedxrheinmain.de/" itemprop="url"><i class="tedx"></i><span itemprop="name">TEDx RheinMain</span></a><span itemprop="description" class="hidden">' . _g('organizations.tedx.description') . '</span></span>')); ?></p>
 
-                <h3 id="links">Weitere Links</h3>
+                <h3 id="links"><?php _e('link.more'); ?></h3>
                 <dl>
                     <dt>
                         <a href="http://m.tacker.org/blog/" rel="me"><i class="tackerorg"></i>Blog</a>
