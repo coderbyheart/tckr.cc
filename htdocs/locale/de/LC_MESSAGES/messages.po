@@ -62,6 +62,14 @@ msgstr "offenraum ist ein Coworking Space im Rhein-Main-Gebiet südlich von Fran
 msgid "organizations.tedx.description"
 msgstr "TEDx ist eine Reihe lokaler, unabhängig organisierter Veranstaltungen, die Menschen zusammen bringt um gemeinsam das TED-Erlebnis zu erfahren."
 
+# Organisationen / WMFRA
+msgid "organizations.wmfra.description"
+msgstr "Webmontag Frankfurt ist ein informelles, nicht-kommerzielles, dezentral organisiertes Treffen, das zum Ziel hat, all diejenigen miteinander zu verbinden, die die Zukunft des Internet gestalten. Der Treffpunkt für Startups, Anwender, Entwickler, Gründer, Unternehmer, Venture Capitalists, Forscher, Web-Pioniere, Blogger, Podcaster, Designer und sonstige Interessenten."
+
+# Organisationen / Grüpnderhub
+msgid "organizations.gruenderhub.description"
+msgstr "Der Gründerhub FrankfurtRheinMain ist eine Initiative aus privaten, gewerblichen und kommunalen Mitgliedern zur Förderung innovativer Gründungen."
+
 # Organisationen / PEAR
 msgid "organizations.pear.description"
 msgstr "PEAR ist ein Framework und ein Verzeichnis wiederverwendbarer PHP-Komponenten."
@@ -108,15 +116,15 @@ msgstr "Als [coderbyheart] arbeite ich frei für Agenturen und mittelständische
 
 # Über mich / re:text
 msgid "about.retext"
-msgstr "In diesem Jahr habe ich mein Medieninformatik-Studium mit der Gesamtnote 1,5 (ECTS-Grad A) abgeschlossen. Meine Bachelor-Thesis zum Thema <em>Konzeption und Entwurf einer Anwendung zur Verwaltung von Texten für Informations- und Kommunikationsmedienprodukte</em> ([abstract]Abstract[/abstract]) wurde mit der Note 1,0 bewertet. Ich widme mich nun der Umsetzung dessen, was ich in der Thesis ausgearbeitet habe: [retext], einem Dienst, der den Workflow rund um Texte in Informations- und Kommunikationsmedien organisiert und nachvollziehbar macht."
+msgstr "In diesem Jahr habe ich mein Medieninformatik-Studium mit der Gesamtnote 1,5 (ECTS-Grad A) abgeschlossen. Meine Bachelor-Thesis zum Thema <em>Konzeption und Entwurf einer Anwendung zur Verwaltung von Texten für Informations- und Kommunikationsmedienprodukte</em> ([abstract]Abstract[/abstract]) wurde mit der Note 1,0 bewertet. Aus der Thesis ist [retext] entstanden, einem Dienst, der den Workflow rund um Texte in Informations- und Kommunikationsmedien organisiert und nachvollziehbar macht."
 
 # Über mich / offenraum
 msgid "about.offenraum"
-msgstr "Nebenbei plane ich die Eröffnung eines Coworking Spaces in Offenbach, den [offenraum]."
+msgstr "Seit Dezember 2012 habe ich meinen Arbeitsplatz in einem Coworking Space in Offenbach, dem [offenraum], den ich im Herbst 2012 im Erdgeschoss meines Wohnhauses eingerichtet habe."
 
 # Über mich / diverse
 msgid "about.misc"
-msgstr "Wenn ich Zeit habe, mache ich ab und zu Fotos. Ich koche gerne und fahre noch lieber in den Urlaub. Mich interessiert eigentlich alles, was sich in Bits formen lässt und „unter der Haube“ von Webanwendungen passiert. Gelegentlich kümmere ich mich um meine Pakete bei [pear] und engagiere mich seit diesem Jahr bei der Organisiation der [tedx]."
+msgstr "Wenn ich Zeit habe, mache ich ab und zu Fotos. Ich koche gerne und fahre noch lieber in den Urlaub. Mich interessiert eigentlich alles, was sich in Bits formen lässt und „unter der Haube“ von Webanwendungen passiert. Gelegentlich kümmere ich mich um meine Pakete bei [pear]. In persona kann man mich jeden zweiten Montag im Monat auf dem [wmfra] treffen, den ich mit vielen anderen Aktiven zusammen gestalte. Als Gründungsmitglied des [gruenderhub] kümmere ich mich um das Startup-Klima in RheinMain."
 
 # Links / Blog Beschreibung
 msgid "link.blog.about"

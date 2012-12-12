@@ -157,8 +157,8 @@ function _e($message, array $replace = null)
             <h2 id="about" class="boxtitle gradient"><?php _e('about.headline'); ?></h2>
 
             <div class="boxbody gradient">
-                <a href="http://www.flickr.com/photos/tacker/6004944000/" rel="me"><img
-                    src="http://farm7.staticflickr.com/6147/6004944000_10cf9fb091.jpg" alt="Markus Tacker" class="me"
+                <a href="http://www.flickr.com/people/tacker/photosof/" rel="me"><img
+                    src="http://farm9.staticflickr.com/8067/8265716171_e994dd8ec7_n.jpg" alt="Markus Tacker" class="me"
                     itemprop="image"/></a>
 
                 <p><?php _e('about.intro', array('numyears' => ((int)date('Y') - 1998))); ?></p>
@@ -169,7 +169,7 @@ function _e($message, array $replace = null)
 
                 <p><?php _e('about.offenraum', array('offenraum' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="http://offenraum.de/" itemprop="url" rel="me"><i class="offenraum"></i><span itemprop="name">offenraum</span></a><span itemprop="description" class="hidden">' . _g('organizations.offenraum.description') . '</span></span>')); ?></p>
 
-                <p><?php _e('about.misc', array('pear' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://pear.php.net/" itemprop="url"><i class="pear"></i><span itemprop="name">PEAR</span></a><span itemprop="description" class="hidden">' . _g('organizations.pear.description') . '</span></span>', 'tedx' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://www.tedxrheinmain.de/" itemprop="url"><i class="tedx"></i><span itemprop="name">TEDx RheinMain</span></a><span itemprop="description" class="hidden">' . _g('organizations.tedx.description') . '</span></span>')); ?></p>
+                <p><?php _e('about.misc', array('pear' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://pear.php.net/" itemprop="url"><i class="pear"></i><span itemprop="name">PEAR</span></a><span itemprop="description" class="hidden">' . _g('organizations.pear.description') . '</span></span>', 'wmfra' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://www.wmfra.de/" itemprop="url"><span itemprop="name">Webmontag Frankfurt</span></a><span itemprop="description" class="hidden">' . _g('organizations.wmfra.description') . '</span></span>', 'gruenderhub' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://www.gründerhub.de/" itemprop="url"><span itemprop="name">Gründerhub FrankfurtRheinMain</span></a><span itemprop="description" class="hidden">' . _g('organizations.gruenderhub.description') . '</span></span>')); ?></p>
 
                 <h3 id="links"><?php _e('link.more'); ?></h3>
                 <dl>
