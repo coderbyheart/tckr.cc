@@ -153,3 +153,11 @@ msgstr "More links"
 # Footer
 msgid "footer"
 msgstr "E-mail icon by Marc Haumann, world icon by Johan H. W. Basberg, by [nounproject].\nAll other logos and trademarks used are the property of their respective owners.\n © 2012 [markustacker]. All rights reserved. [github]Source code on GitHub.[/github]"
+
+# Über mich / wemoof
+msgid "about.wemoof"
+msgstr "In March 2013 I initiated the [wemoof]-a recurring event which will bring together likeminded people from all creative industries in the city to connect."
+
+# Organisationen / wemoof
+msgid "organizations.wemoof.description"
+msgstr "Webmonday Offenbach is an informal, non-commercial, and completely community-driven event that aims to connect the people who are shaping the future of the internet."

@@ -153,3 +153,11 @@ msgstr "Weitere Links"
 # Footer
 msgid "footer"
 msgstr "E-Mail-Icon von Marc Haumann, Welt-Icon von Johan H. W. Basberg, von [nounproject].\nSämtliche verwendeten Logos und Warenzeichen sind Eigentum des jeweiligen Rechteinhabers.\n © 2012 [markustacker]. Alle Rechte vorbehalten. [github]Quellcode auf GitHub.[/github]"
+
+# Über mich / wemoof
+msgid "about.wemoof"
+msgstr "Im März 2013 habe ich den [wemoof] initiiert, der regelmäßig stattfinden soll um Interessierte aus allen kreativen Branchen der Stadt zusammenbringt und so Raum für neue Verbindungen und Synergien zu schaffen."
+
+# Organisationen / wemoof
+msgid "organizations.wemoof.description"
+msgstr "Der Webmontag Offenbach ist eine informelle, nicht-kommerzielle und von der Community organisierte Veranstaltung, die Menschen zusammen bringt, die sich für das Web begeistern, Teil davon sind oder es werden wollen."
