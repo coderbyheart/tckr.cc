@@ -90,14 +90,6 @@ msgstr "Contact data as [link]VCF-file[/link]."
 msgid "kontakt.qr"
 msgstr "Show the [link]QR-Code[/link] for this page."
 
-# Hire me! / Titel
-msgid "hireme.headline"
-msgstr "Hire me!"
-
-# Hire me! / Text
-msgid "hireme.text"
-msgstr "If you are an employer who puts the human first-both inside and outside the company and provide a position where I can shape a team and develop a product which has a meaning and the ability to change the way people live or work, 60k+ per year and the 20% time, contact me! If not, nevermind–[retext]I'll try that on my own[/retext]."
-
 # Über mich / Titel
 msgid "about.headline"
 msgstr "About me"

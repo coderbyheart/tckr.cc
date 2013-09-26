@@ -69,7 +69,6 @@ function _e($message, array $replace = null)
     <h1>Markus Tacker &middot; <?php _e('titel'); ?></h1>
 </header>
 <nav class="gradient mobile">
-    <a href="#hireme" class="internal"><?php _e('nav.hireme'); ?></a>
     <a href="#about" class="internal"><?php _e('nav.about'); ?></a>
     <a href="#links" class="internal"><?php _e('nav.links'); ?></a>
     <a href="/<?php echo $switchlang; ?>" class="internal" lang="<?php echo $htmlswitchlang; ?>"
@@ -143,13 +142,6 @@ function _e($message, array $replace = null)
                             <br><?php _e('kontakt.qr', array('link' => '<a href="qrcode.html"><i class="qrcode"></i>|</a>')); ?>
                         </small>
                     </p>
-                </div>
-            </aside>
-            <aside class="box" id="hireme">
-                <h2 class="boxtitle gradient"><?php _e('hireme.headline'); ?></h2>
-
-                <div class="boxbody gradient">
-                    <p><?php _e('hireme.text', array('retext' => '<a href="http://retext.it/" rel="me">|</a>')); ?></p>
                 </div>
             </aside>
         </div>
