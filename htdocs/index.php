@@ -159,7 +159,7 @@ function _e($message, array $replace = null)
 
                 <p><?php _e('about.wemoof', array('wemoof' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://wemoof.de/" itemprop="url" rel="me"><i class="wemoof"></i><span itemprop="name">Webmontag Offenbach</span></a><span itemprop="description" class="hidden">' . _g('organizations.wemoof.description') . '</span></span>')); ?></p>
 
-                <p><?php _e('about.misc', array('pear' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://pear.php.net/" itemprop="url"><i class="pear"></i><span itemprop="name">PEAR</span></a><span itemprop="description" class="hidden">' . _g('organizations.pear.description') . '</span></span>', 'gruenderhub' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://www.gründerhub.de/" itemprop="url"><span itemprop="name">Gründerhub FrankfurtRheinMain</span></a><span itemprop="description" class="hidden">' . _g('organizations.gruenderhub.description') . '</span></span>')); ?></p>
+                <p><?php _e('about.misc', array('gruenderhub' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://www.gründerhub.de/" itemprop="url"><span itemprop="name">Gründerhub FrankfurtRheinMain</span></a><span itemprop="description" class="hidden">' . _g('organizations.gruenderhub.description') . '</span></span>')); ?></p>
                 <div class="clearfix"></div>
             </div>
         </article>

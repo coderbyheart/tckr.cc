@@ -60,10 +60,6 @@ msgstr "TEDx ist eine Reihe lokaler, unabhängig organisierter Veranstaltungen, 
 msgid "organizations.gruenderhub.description"
 msgstr "Der Gründerhub FrankfurtRheinMain ist eine Initiative aus privaten, gewerblichen und kommunalen Mitgliedern zur Förderung innovativer Gründungen."
 
-# Organisationen / PEAR
-msgid "organizations.pear.description"
-msgstr "PEAR ist ein Framework und ein Verzeichnis wiederverwendbarer PHP-Komponenten."
-
 # Kontakt / Label / Telefon
 msgid "kontakt.telefon.label"
 msgstr "Telefon"
@@ -110,7 +106,7 @@ msgstr "In diesem Jahr habe ich mein Medieninformatik-Studium mit der Gesamtnote
 
 # Über mich / diverse
 msgid "about.misc"
-msgstr "Wenn ich Zeit habe, mache ich ab und zu Fotos. Ich koche gerne und fahre noch lieber in den Urlaub. Mich interessiert eigentlich alles, was sich in Bits formen lässt und „unter der Haube“ von Webanwendungen passiert. Gelegentlich kümmere ich mich um meine Pakete bei [pear]. Als Gründungsmitglied des [gruenderhub] kümmere ich mich um das Startup-Klima in RheinMain."
+msgstr "Wenn ich Zeit habe, mache ich ab und zu Fotos. Ich koche gerne und fahre noch lieber in den Urlaub. Mich interessiert eigentlich alles, was sich in Bits formen lässt und „unter der Haube“ von Webanwendungen passiert. Als Gründungsmitglied des [gruenderhub] kümmere ich mich um das Startup-Klima in RheinMain."
 
 # Links / Blog Beschreibung
 msgid "link.blog.about"
