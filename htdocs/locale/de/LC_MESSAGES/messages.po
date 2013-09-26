@@ -52,10 +52,6 @@ msgstr "Freelance Señor Web Backend Dev"
 msgid "organizations.retext.description"
 msgstr "Mit re:text können alle text-spezifischen Aufgaben während der Erstellung von Informations- und Kommunikationsmedien auf einfache Art verwaltet werden."
 
-# Organisationen / offenraum
-msgid "organizations.offenraum.description"
-msgstr "offenraum ist ein Coworking Space im Rhein-Main-Gebiet südlich von Frankfurt in Offenbach am Main, in der Nähe des Hauptbahnhofs, Hassia Fabrik und Stadtkrankenhaus."
-
 # Organisationen / TEDx RheinMain
 msgid "organizations.tedx.description"
 msgstr "TEDx ist eine Reihe lokaler, unabhängig organisierter Veranstaltungen, die Menschen zusammen bringt um gemeinsam das TED-Erlebnis zu erfahren."
@@ -111,10 +107,6 @@ msgstr "Als [coderbyheart] arbeite ich frei für Agenturen und mittelständische
 # Über mich / re:text
 msgid "about.retext"
 msgstr "In diesem Jahr habe ich mein Medieninformatik-Studium mit der Gesamtnote 1,5 (ECTS-Grad A) abgeschlossen. Meine Bachelor-Thesis zum Thema <em>Konzeption und Entwurf einer Anwendung zur Verwaltung von Texten für Informations- und Kommunikationsmedienprodukte</em> ([abstract]Abstract[/abstract]) wurde mit der Note 1,0 bewertet. Aus der Thesis ist [retext] entstanden, einem Dienst, der den Workflow rund um Texte in Informations- und Kommunikationsmedien organisiert und nachvollziehbar macht."
-
-# Über mich / offenraum
-msgid "about.offenraum"
-msgstr "Seit Dezember 2012 habe ich meinen Arbeitsplatz in einem Coworking Space in Offenbach, dem [offenraum], den ich im Herbst 2012 im Erdgeschoss meines Wohnhauses eingerichtet habe."
 
 # Über mich / diverse
 msgid "about.misc"
