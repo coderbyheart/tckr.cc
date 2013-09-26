@@ -102,7 +102,7 @@ msgstr "This year I graduated in media computer science (B.Sc.) and received the
 
 # Über mich / diverse
 msgid "about.misc"
-msgstr "If I have some spare time on my hands I take pictures. I like to cook and even more to go on vacation. Basically, I am interested in everything which can be sculptured by bits and happens „under the hood“ of web applications. As a founding member of the [gruenderhub] I try to enhance the startup climate in the rhein-main region."
+msgstr "If I have some spare time on my hands I take pictures. I like to cook and even more to go on vacation. Basically, I am interested in everything which can be sculptured by bits and happens „under the hood“ of web applications. As a founding member of the [gruenderhub] I try to enhance the startup climate in the rhein-main region. I am also totally into [usergroups]-you'll meet meet regulary at the Webmontag Frankfurt, the Softwerkskammer, the PHP- and Python usergroups and many more events in the rhein-main area."
 
 # Links / Blog Beschreibung
 msgid"link.blog.about"

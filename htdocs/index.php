@@ -159,7 +159,8 @@ function _e($message, array $replace = null)
 
                 <p><?php _e('about.wemoof', array('wemoof' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://wemoof.de/" itemprop="url" rel="me"><i class="wemoof"></i><span itemprop="name">Webmontag Offenbach</span></a><span itemprop="description" class="hidden">' . _g('organizations.wemoof.description') . '</span></span>')); ?></p>
 
-                <p><?php _e('about.misc', array('gruenderhub' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://www.gründerhub.de/" itemprop="url"><span itemprop="name">Gründerhub FrankfurtRheinMain</span></a><span itemprop="description" class="hidden">' . _g('organizations.gruenderhub.description') . '</span></span>')); ?></p>
+                <p><?php _e('about.misc', array('gruenderhub' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://www.gründerhub.de/" itemprop="url"><span itemprop="name">Gründerhub FrankfurtRheinMain</span></a><span itemprop="description" class="hidden">' . _g('organizations.gruenderhub.description') . '</span></span>', 'usergroups' => '<a href="http://usergroups.rheinmainrocks.de">Usergroups</a>')); ?></p>
+
                 <div class="clearfix"></div>
             </div>
         </article>

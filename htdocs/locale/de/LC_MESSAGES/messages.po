@@ -106,7 +106,7 @@ msgstr "In diesem Jahr habe ich mein Medieninformatik-Studium mit der Gesamtnote
 
 # Über mich / diverse
 msgid "about.misc"
-msgstr "Wenn ich Zeit habe, mache ich ab und zu Fotos. Ich koche gerne und fahre noch lieber in den Urlaub. Mich interessiert eigentlich alles, was sich in Bits formen lässt und „unter der Haube“ von Webanwendungen passiert. Als Gründungsmitglied des [gruenderhub] kümmere ich mich um das Startup-Klima in RheinMain."
+msgstr "Wenn ich Zeit habe, mache ich ab und zu Fotos. Ich koche gerne und fahre noch lieber in den Urlaub. Mich interessiert eigentlich alles, was sich in Bits formen lässt und „unter der Haube“ von Webanwendungen passiert. Als Gründungsmitglied des [gruenderhub] kümmere ich mich um das Startup-Klima in RheinMain. Besonders angetan haben es mir auch [usergroups], so findest Du mich regelmäßig auf den Treffen des Webmontag Frankfurt, der Softwerkskammer, der PHP- und der Python-Usergroup und vielen anderen Veranstaltungen hier im Rhein-Main-Gebiet."
 
 # Links / Blog Beschreibung
 msgid "link.blog.about"
