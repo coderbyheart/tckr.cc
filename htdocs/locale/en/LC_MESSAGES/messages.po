@@ -2,6 +2,12 @@
 msgid "titel"
 msgstr "Contact and profile"
 
+msgid "me.title"
+msgstr "Media Computer Science (B.Sc.)"
+
+msgid "me.role"
+msgstr "Technical Lead / Interim CTO"
+
 # Meta / META-Tag description
 msgid "description"
 msgstr "Contact information and personal profile of Markus Tacker, Concept and development of complex web applications, technical project management from Offenbach, Germany."
@@ -9,10 +15,6 @@ msgstr "Contact information and personal profile of Markus Tacker, Concept and d
 # Navigation / Kontakt
 msgid "nav.kontakt"
 msgstr "Contact"
-
-# Navigation / Hire me!
-msgid "nav.hireme"
-msgstr "Hire me!"
 
 # Navigation / Sprache wechseln
 msgid "nav.switchlang"
@@ -40,7 +42,7 @@ msgstr "conception and development of complex web-based applications, technical 
 
 # Organisationen / coder::by(♥)
 msgid "organizations.cbh.description"
-msgstr "I am a freelance web application developer from Germany. I ♥ code."
+msgstr "Freelance Señor Web Backend Dev"
 
 # Organisationen / re:text
 msgid "organizations.retext.description"

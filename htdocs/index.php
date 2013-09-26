@@ -6,8 +6,7 @@ $langSpecs = array('de' => 'de-de', 'en' => 'en-us');
 $lang = isset($matches[1]) && in_array($matches[1], $langs) ? $matches[1] : 'de';
 $htmlLang = $langSpecs[$lang];
 $localeLang = substr($htmlLang, 0, 2) . '_' . strtoupper(substr($htmlLang, -2)) . '.utf8';
-$switchlang = array_shift(array_filter($langs, function($el) use($lang)
-{
+$switchlang = array_shift(array_filter($langs, function ($el) use ($lang) {
     return $el !== $lang;
 }));
 $switchhtmllang = $langSpecs[$switchlang];
@@ -25,11 +24,11 @@ function _g($message, array $replace = null)
         foreach ($replace as $id => $data) {
             if (preg_match("%\[$id\][^\]]+\[/$id\]%", $str)) {
                 // Replaced with Tag
-                $sepPos = strpos($data, '|');
+                $sepPos   = strpos($data, '|');
                 $startTag = substr($data, 0, $sepPos);
-                $endTag = substr($data, $sepPos + 1);
-                $str = str_replace("[$id]", $startTag, $str);
-                $str = str_replace("[/$id]", $endTag, $str);
+                $endTag   = substr($data, $sepPos + 1);
+                $str      = str_replace("[$id]", $startTag, $str);
+                $str      = str_replace("[/$id]", $endTag, $str);
             } else {
                 // Replaced with string
                 $str = str_replace("[$id]", $data, $str);
@@ -71,14 +70,12 @@ function _e($message, array $replace = null)
 <nav class="gradient mobile">
     <a href="#about" class="internal"><?php _e('nav.about'); ?></a>
     <a href="#links" class="internal"><?php _e('nav.links'); ?></a>
-    <a href="/<?php echo $switchlang; ?>" class="internal" lang="<?php echo $htmlswitchlang; ?>"
-       title="<?php _e('nav.switchlang.titel'); ?>"><em><?php _e('nav.switchlang'); ?></em></a>
+    <a href="/<?php echo $switchlang; ?>" class="internal" lang="<?php echo $htmlswitchlang; ?>" title="<?php _e('nav.switchlang.titel'); ?>"><em><?php _e('nav.switchlang'); ?></em></a>
 </nav>
 <div id="main" class="gradient">
     <div id="content">
         <nav class="desktop">
-            <a href="/<?php echo $switchlang; ?>" class="internal" lang="<?php echo $htmlswitchlang; ?>"
-               title="<?php _e('nav.switchlang.titel'); ?>"><em><?php _e('nav.switchlang'); ?></em></a>
+            <a href="/<?php echo $switchlang; ?>" class="internal" lang="<?php echo $htmlswitchlang; ?>" title="<?php _e('nav.switchlang.titel'); ?>"><em><?php _e('nav.switchlang'); ?></em></a>
         </nav>
         <div id="left">
             <aside class="box" id="contact">
@@ -86,14 +83,11 @@ function _e($message, array $replace = null)
 
                 <div class="boxbody gradient">
                     <p>
-                        <strong itemprop="name">Markus Tacker</strong>
-                    </p>
+                        <strong itemprop="name">Markus Tacker</strong><br> <?php _e('me.title'); ?><br><?php _e('me.role'); ?></p>
 
                     <p>
-                    <span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a
-                        href="http://coderbyheart.de/" itemprop="url" rel="me"> <span itemprop="name">coder::by(<i
-                        class="coderbyheart">♥</i>);</span></a><span itemprop="description"
-                                                                     class="hidden"><?php _e('organizations.cbh.description'); ?></span></span><br>
+                    <span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://coderbyheart.de/" itemprop="url" rel="me"> <span itemprop="name">coder::by(<i class="coderbyheart">♥</i>);</span></a> <small>
+                            // <span itemprop="description"><?php _e('organizations.cbh.description'); ?></span></small></span><br>
                         <span itemprop="jobTitle"><?php _e('kontakt.jobtitle'); ?></span>
                     </p>
 
@@ -112,29 +106,35 @@ function _e($message, array $replace = null)
                         </dd>
                         <dt><?php _e('kontakt.email.label'); ?></dt>
                         <dd>
-                            <a href="mailto:m@tckr.cc" itemprop="email"><i class="mail"></i>m@tckr.cc</a>
+                            <a href="mailto:m@coderbyheart.de" itemprop="email"><i class="mail"></i>m@coderbyheart.de</a>
                         </dd>
                         <dt><?php _e('kontakt.web.label'); ?></dt>
                         <dd>
                             <a href="http://tckr.cc/" itemprop="url" rel="author"><i class="link"></i>tckr.cc</a>
                         </dd>
-                        <dt><?php _e('kontakt.twitter.label'); ?></dt>
-                        <dd>
-                            <a href="http://twitter.com/markustacker"><i class="twitter"></i>@markustacker</a>
-                        </dd>
                     </dl>
                     <h3><?php _e('kontakt.connect'); ?></h3>
-                    <ul class="icons f f-1-3">
-                        <li>
+                    <dl class="icons">
+                        <dt>XING</dt>
+                        <dd>
                             <a href="https://www.xing.com/profile/Markus_Tacker" rel="me"><i class="xing"></i>XING</a>
-                        </li>
-                        <li>
-                            <a href="http://www.linkedin.com/profile/view?id=26414365" rel="me"><i class="linkedin"></i>LinkedIn</a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/117860902301942617280" rel="me"><i class="gplus"></i>Google+</a>
-                        </li>
-                    </ul>
+                        </dd>
+                        <dt>GitHub</dt>
+                        <dd>
+                            <a href="https://github.com/tacker" rel="me" title="tacker@GitHub"><i class="github"></i>GitHub</a>
+                        </dd>
+                        <dt><?php _e('link.flickr.about'); ?>
+
+                        </dt>
+                        <dd><a href="http://www.flickr.com/people/tacker/" rel="me"><i class="flickr"></i>flickr</a>
+                        </dd>
+                        <dt>
+                            <?php _e('link.amazon.about'); ?>
+                        </dt>
+                        <dd>
+                            <a href="https://www.amazon.de/gp/pdp/profile/ATC8QVKE79XBW/?ie=UTF8&amp;site-redirect=de&amp;tag=mtaor-21&amp;linkCode=ur2&amp;camp=1638&amp;creative=19454"><i class="amazon"></i><?php _e('link.amazon.title'); ?>
+                            </a></dd>
+                    </dl>
                     <div class="clearfix"></div>
                     <hr>
                     <p>
@@ -149,9 +149,7 @@ function _e($message, array $replace = null)
             <h2 id="about" class="boxtitle gradient"><?php _e('about.headline'); ?></h2>
 
             <div class="boxbody gradient">
-                <a href="http://www.flickr.com/people/tacker/photosof/" rel="me"><img
-                    src="http://farm9.staticflickr.com/8067/8265716171_e994dd8ec7_n.jpg" alt="Markus Tacker" class="me"
-                    itemprop="image"/></a>
+                <a href="http://www.flickr.com/people/tacker/photosof/" rel="me"><img src="http://farm9.staticflickr.com/8067/8265716171_e994dd8ec7_n.jpg" alt="Markus Tacker" class="me" itemprop="image"/></a>
 
                 <p><?php _e('about.intro', array('numyears' => ((int)date('Y') - 1998))); ?></p>
 
@@ -164,61 +162,6 @@ function _e($message, array $replace = null)
                 <p><?php _e('about.wemoof', array('wemoof' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://wemoof.de/" itemprop="url" rel="me"><i class="wemoof"></i><span itemprop="name">Webmontag Offenbach</span></a><span itemprop="description" class="hidden">' . _g('organizations.wemoof.description') . '</span></span>')); ?></p>
 
                 <p><?php _e('about.misc', array('pear' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://pear.php.net/" itemprop="url"><i class="pear"></i><span itemprop="name">PEAR</span></a><span itemprop="description" class="hidden">' . _g('organizations.pear.description') . '</span></span>', 'gruenderhub' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://www.gründerhub.de/" itemprop="url"><span itemprop="name">Gründerhub FrankfurtRheinMain</span></a><span itemprop="description" class="hidden">' . _g('organizations.gruenderhub.description') . '</span></span>')); ?></p>
-
-                <h3 id="links"><?php _e('link.more'); ?></h3>
-                <dl>
-                    <dt>
-                        <a href="http://m.tacker.org/blog/" rel="me"><i class="tackerorg"></i>Blog</a>
-                    </dt>
-                    <dd><?php _e('link.blog.about'); ?></dd>
-                    <dt>
-                        <a href="http://studium.coderbyheart.de/" rel="me"><i class="markusstudiert"></i>Markus studiert!</a>
-                    </dt>
-                    <dd><?php _e('link.markusstudiert.about'); ?></dd>
-                    <dt>
-                        <a href="http://www.flickr.com/people/tacker/" rel="me"><i class="flickr"></i>flickr</a>
-                    </dt>
-                    <dd><?php _e('link.flickr.about'); ?></dd>
-                    <dt>
-                        <a
-                        href="https://www.amazon.de/gp/pdp/profile/ATC8QVKE79XBW/?ie=UTF8&amp;site-redirect=de&amp;tag=mtaor-21&amp;linkCode=ur2&amp;camp=1638&amp;creative=19454"><i class="amazon"></i><?php _e('link.amazon.title'); ?></a>
-                    </dt>
-                    <dd><?php _e('link.amazon.about'); ?></dd>
-                </dl>
-                <p><?php _e('link.profiles'); ?></p>
-                <ul class="icons f f-1-4">
-                    <li>
-                        <a href="https://github.com/tacker" rel="me"
-                                                 title="tacker@GitHub"><i class="github"></i>GitHub</a>
-                    </li>
-                    <li>
-                        <a href="http://www.ted.com/profiles/1205018" rel="me"
-                                              title="TED-Profil"><i class="ted"></i>TED</a>
-                    </li>
-                    <li>
-                        <a href="http://pear.php.net/user/tacker" rel="me"
-                                               title="tacker@PEAR"><i class="pear"></i>PEAR</a>
-                    </li>
-                    <li>
-                        <a href="https://de.foursquare.com/markustacker" rel="me"
-                                                     title="markustacker@foursquare"><i class="foursquare"></i>foursquare</a>
-                    </li>
-                    <li>
-                        <a href="http://delicious.com/tacker" rel="me"
-                                                    title="tacker@delicious"><i class="delicious"></i>Delicious</a>
-                    </li>
-                    <li>
-                        <a href="http://www.lastfm.de/user/m.tacker/" rel="me"
-                                                 title="m.tacker@lastfm"><i class="lastfm"></i>lastFM</a>
-                    </li>
-                    <li>
-                        <a href="http://www.qype.com/people/tacker" rel="me" title="tacker@qype"><i class="qype"></i>Qype</a>
-                    </li>
-                    <li>
-                        <a href="http://www.youtube.com/user/markustacker" rel="me"
-                                                  title="markustacker@youtube"><i class="youtube"></i>YouTube</a>
-                    </li>
-                </ul>
                 <div class="clearfix"></div>
             </div>
         </article>
