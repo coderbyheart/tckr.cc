@@ -132,7 +132,7 @@ function _e($message, array $replace = null)
                             <?php _e('link.amazon.about'); ?>
                         </dt>
                         <dd>
-                            <a href="https://www.amazon.de/gp/pdp/profile/ATC8QVKE79XBW/?ie=UTF8&amp;site-redirect=de&amp;tag=mtaor-21&amp;linkCode=ur2&amp;camp=1638&amp;creative=19454"><i class="amazon"></i><?php _e('link.amazon.title'); ?>
+                            <a href="http://l.tckr.cc/19HZT1T"><i class="amazon"></i><?php _e('link.amazon.title'); ?>
                             </a></dd>
                     </dl>
                     <div class="clearfix"></div>
