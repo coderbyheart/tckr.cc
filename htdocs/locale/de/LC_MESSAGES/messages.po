@@ -44,6 +44,10 @@ msgstr "Kontakt"
 msgid "kontakt.jobtitle"
 msgstr "Konzeption und Realisierung von komplexen Webanwendungen, technische Projektleitung"
 
+# Kontakt / essquare
+msgid "kontakt.essquare"
+msgstr "Mitglied von [link]essquare[/link] – nachhaltige Organisations- und Produktentwicklung"
+
 # Organisationen / coder::by(♥)
 msgid "organizations.cbh.description"
 msgstr "Freelance Señor Web Backend Dev"
@@ -100,6 +104,10 @@ msgstr "Dank einer Ausbildung mit Schwerpunkt Gestaltung, mehr als [numyears] Ja
 msgid "about.cbh"
 msgstr "Als [coderbyheart] arbeite ich frei für Agenturen und mittelständische Unternehmen. Dort übernehme ich neben der Konzeption und Realisierung von komplexen Webanwendungen auch die technische Projektleitung."
 
+# Über mich / essquare
+msgid "about.essquare"
+msgstr "Seit 2014 bin ich Teil von [essquare] – einem Zusammenschluss erfahrener Freelancer, der nachhaltige Organisations- und Produktentwicklung aus einer Hand anbietet. Dabei gehen wir selbstbewusst neue Wege: wir haben den Kundennutzen fest im Blick und sagen auch mal Nein! Wir glauben, dass es an der Zeit ist, mit Kunden und Auftraggeber auf Augenhöhe zu streiten; über Werte, Zielsetzungen und Vorstellung — denn als Experten sind wir gefragt, die bestmögliche Lösung im Sinne des Nutzers zu finden und nicht die, die sich auf dem Weg des geringsten Widerstandes im Projektverlauf ergibt."
+
 # Über mich / re:text
 msgid "about.retext"
 msgstr "In diesem Jahr habe ich mein Medieninformatik-Studium mit der Gesamtnote 1,5 (ECTS-Grad A) abgeschlossen. Meine Bachelor-Thesis zum Thema <em>Konzeption und Entwurf einer Anwendung zur Verwaltung von Texten für Informations- und Kommunikationsmedienprodukte</em> ([abstract]Abstract[/abstract]) wurde mit der Note 1,0 bewertet. Aus der Thesis ist [retext] entstanden, einem Dienst, der den Workflow rund um Texte in Informations- und Kommunikationsmedien organisiert und nachvollziehbar macht."
@@ -147,3 +155,7 @@ msgstr "Im März 2013 habe ich den [wemoof] initiiert, der regelmäßig stattfin
 # Organisationen / wemoof
 msgid "organizations.wemoof.description"
 msgstr "Der Webmontag Offenbach ist eine informelle, nicht-kommerzielle und von der Community organisierte Veranstaltung, die Menschen zusammen bringt, die sich für das Web begeistern, Teil davon sind oder es werden wollen."
+
+# Organisationen / essquare
+msgid "organizations.esquare.description"
+msgstr "essquare ist ein Zusammenschluss erfahrener Freelancer, der nachhaltige Organisations- und Produktentwicklung aus einer Hand anbietet."
