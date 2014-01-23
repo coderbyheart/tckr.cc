@@ -60,10 +60,6 @@ msgstr "Mit re:text können alle text-spezifischen Aufgaben während der Erstell
 msgid "organizations.tedx.description"
 msgstr "TEDx ist eine Reihe lokaler, unabhängig organisierter Veranstaltungen, die Menschen zusammen bringt um gemeinsam das TED-Erlebnis zu erfahren."
 
-# Organisationen / Grüpnderhub
-msgid "organizations.gruenderhub.description"
-msgstr "Der Gründerhub FrankfurtRheinMain ist eine Initiative aus privaten, gewerblichen und kommunalen Mitgliedern zur Förderung innovativer Gründungen."
-
 # Kontakt / Label / Telefon
 msgid "kontakt.telefon.label"
 msgstr "Telefon"
@@ -114,7 +110,7 @@ msgstr "In diesem Jahr habe ich mein Medieninformatik-Studium mit der Gesamtnote
 
 # Über mich / diverse
 msgid "about.misc"
-msgstr "Wenn ich Zeit habe, mache ich ab und zu Fotos. Ich koche gerne und fahre noch lieber in den Urlaub. Mich interessiert eigentlich alles, was sich in Bits formen lässt und „unter der Haube“ von Webanwendungen passiert. Als Gründungsmitglied des [gruenderhub] kümmere ich mich um das Startup-Klima in RheinMain. Besonders angetan haben es mir auch [usergroups], so findest Du mich regelmäßig auf den Treffen des Webmontag Frankfurt, der Softwerkskammer, der PHP- und der Python-Usergroup und vielen anderen Veranstaltungen hier im Rhein-Main-Gebiet."
+msgstr "Wenn ich Zeit habe, mache ich ab und zu Fotos. Ich koche gerne und fahre noch lieber in den Urlaub. Mich interessiert eigentlich alles, was sich in Bits formen lässt und „unter der Haube“ von Webanwendungen passiert. Besonders angetan haben es mir auch [usergroups], so findest Du mich regelmäßig auf den Treffen des Webmontag Frankfurt, der Softwerkskammer, der PHP- und der Agile-Usergroup und vielen anderen Veranstaltungen hier im Rhein-Main-Gebiet."
 
 # Links / Blog Beschreibung
 msgid "link.blog.about"

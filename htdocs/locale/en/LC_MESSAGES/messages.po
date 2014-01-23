@@ -56,10 +56,6 @@ msgstr "re:text manages all text-related tasks during the creation of informatio
 msgid "organizations.tedx.description"
 msgstr "TEDx is a program of local, self-organized events that bring people together to share a TED-like experience."
 
-# Organisationen / Grüpnderhub
-msgid "organizations.gruenderhub.description"
-msgstr "Gründerhub FrankfurtRheinMain is an initiative founded by private, commercial and communal parties to strengthen innovative startups."
-
 # Kontakt / Label / Telefon
 msgid "kontakt.telefon.label"
 msgstr "Phone"
@@ -110,7 +106,7 @@ msgstr "This year I graduated in media computer science (B.Sc.) and received the
 
 # Über mich / diverse
 msgid "about.misc"
-msgstr "If I have some spare time on my hands I take pictures. I like to cook and even more to go on vacation. Basically, I am interested in everything which can be sculptured by bits and happens „under the hood“ of web applications. As a founding member of the [gruenderhub] I try to enhance the startup climate in the rhein-main region. I am also totally into [usergroups]-you'll meet meet regulary at the Webmontag Frankfurt, the Softwerkskammer, the PHP- and Python usergroups and many more events in the rhein-main area."
+msgstr "If I have some spare time on my hands I take pictures. I like to cook and even more to go on vacation. Basically, I am interested in everything which can be sculptured by bits and happens „under the hood“ of web applications. I am also totally into [usergroups]-you'll meet meet regulary at the Webmontag Frankfurt, the Softwerkskammer, the PHP- and Agile usergroups and many more events in the rhein-main area."
 
 # Links / Blog Beschreibung
 msgid"link.blog.about"
