@@ -3,10 +3,10 @@ msgid "titel"
 msgstr "Contact and profile"
 
 msgid "me.title"
-msgstr "Media Computer Science (B.Sc.)"
+msgstr "Media Computer Scientist (B.Sc.)"
 
 msgid "me.role"
-msgstr "Technical Lead / Interim CTO"
+msgstr "Chief Technical Officer"
 
 # Meta / META-Tag description
 msgid "description"
@@ -38,15 +38,15 @@ msgstr "Contact"
 
 # Kontakt / Job-Titel
 msgid "kontakt.jobtitle"
-msgstr "conception and development of complex web-based applications, technical project management"
-
-# Kontakt / essquare
-msgid "kontakt.essquare"
-msgstr "Member of [link]essquare[/link] – sustainable organizational and product development"
+msgstr "Chief Technical Officer"
 
 # Organisationen / coder::by(♥)
 msgid "organizations.cbh.description"
 msgstr "Freelance Señor Web Backend Dev"
+
+# Organisationen / dotHIV
+msgid "organizations.dotHIV.description"
+msgstr ".hiv domains – The Red Ribbon of the digital age"
 
 # Organisationen / re:text
 msgid "organizations.retext.description"
@@ -80,10 +80,6 @@ msgstr "Connect …"
 msgid "kontakt.vcf"
 msgstr "Contact data as [link]VCF-file[/link]."
 
-# Kontakt / QR-Code
-msgid "kontakt.qr"
-msgstr "Show the [link]QR-Code[/link] for this page."
-
 # Über mich / Titel
 msgid "about.headline"
 msgstr "About me"
@@ -94,15 +90,15 @@ msgstr "Due to my apprenticeship with an emphasis on design, [numyears]+ years o
 
 # Über mich / coder::by(♥)
 msgid "about.cbh"
-msgstr "I am working as [coderbyheart] on a freelance basis for agencies and SMEs where I am responsible for the conception and realisation of complex web-based applications and also for technical project management."
+msgstr "Until march 2014 i used to work as [coderbyheart] on a freelance basis for agencies and SMEs where I was responsible for the conception and realisation of complex web-based applications and also for technical project management."
 
-# Über mich / essquare
-msgid "about.essquare"
-msgstr "Since 2014 I am member of [essquare]–a fusion of experienced freelancers that provides sustainable organizational and product development. Always with an eye on customer value we firmly believe that it is time to argue with our clients about values, goals and expectations. Hired as professionals we are in charge of finding the best solution for the customer not the solution that surfaces by following the path of the least resistance in the course of the project."
+# Über mich / dotHIV
+msgid "about.dotHIV"
+msgstr "In April 2014 I joined [dotHIV] as Chief Technical Officer. dotHIV is a non-profit organization which aims to raise awareness and funds for the fight againts HIV/AIDS by establishing the new top level domain .hiv."
 
 # Über mich / re:text
 msgid "about.retext"
-msgstr "This year I graduated in media computer science (B.Sc.) and received the grade 1.5 (ECTS grade A). My bachelor-thesis about <em>Conception and design of an application for the managament of text for information and communication media</em> ([abstract]german abstract[/abstract]) received the grade 1.0. [retext] is a result of the thesis, a service which organizes the workflow related to texts in information- and communication media."
+msgstr "In 2012 I graduated in media computer science (B.Sc.) and received the grade 1.5 (ECTS grade A). My bachelor-thesis about <em>Conception and design of an application for the managament of text for information and communication media</em> ([abstract]german abstract[/abstract]) received the grade 1.0. [retext] is a result of the thesis, a service which organizes the workflow related to texts in information- and communication media."
 
 # Über mich / diverse
 msgid "about.misc"
@@ -147,7 +143,3 @@ msgstr "In March 2013 I initiated the [wemoof]-a recurring event which will brin
 # Organisationen / wemoof
 msgid "organizations.wemoof.description"
 msgstr "Webmonday Offenbach is an informal, non-commercial, and completely community-driven event that aims to connect the people who are shaping the future of the internet."
-
-# Organisationen / essquare
-msgid "organizations.esquare.description"
-msgstr "essquare is a fusion of experienced freelancers and provides sustainable organizational and product development."
