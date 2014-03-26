@@ -122,6 +122,10 @@ function _e($message, array $replace = null)
                         <dd>
                             <a href="https://www.xing.com/profile/Markus_Tacker" rel="me"><i class="xing"></i>XING</a>
                         </dd>
+                        <dt>LinkedIn</dt>
+                        <dd>
+                            <a href="https://www.linkedin.com/in/markustacker" rel="me"><i class="linkedin"></i>LinkedIn</a>
+                        </dd>
                         <dt>GitHub</dt>
                         <dd>
                             <a href="https://github.com/tacker" rel="me" title="tacker@GitHub"><i class="github"></i>GitHub</a>
