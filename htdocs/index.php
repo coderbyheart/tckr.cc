@@ -195,6 +195,6 @@ function _e($message, array $replace = null)
         s.parentNode.insertBefore(ga, s);
     })();
 </script>
-<script src="//dothiv-registry.appspot.com/static/banner.min.js" type="text/javascript"></script>
+<script src="//dothiv-registry.appspot.com/static/clickcounter.min.js" type="text/javascript"></script>
 </body>
 </html>
