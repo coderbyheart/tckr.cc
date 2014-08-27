@@ -85,7 +85,7 @@ function _e($message, array $replace = null)
                     <p>
                         <strong itemprop="name">Markus Tacker</strong><br> <?php _e('me.title'); ?></p>
                     <p>
-                    <span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://dotHIV.org/" itemprop="url" rel="me"> <span itemprop="name">dotHIV</span></a> <small>
+                    <span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="https://click4life.hiv/" itemprop="url" rel="me"> <span itemprop="name">dotHIV</span></a> <small>
                             // <span itemprop="description"><?php _e('organizations.dotHIV.description'); ?></span></small></span><br>
                         <span itemprop="jobTitle"><?php _e('kontakt.jobtitle'); ?></span>
                     </p>
@@ -105,11 +105,11 @@ function _e($message, array $replace = null)
                         </dd>
                         <dt><?php _e('kontakt.email.label'); ?></dt>
                         <dd>
-                            <a href="mailto:m@dotHIV.org" itemprop="email"><i class="mail"></i>m@dotHIV.org</a>
+                            <a href="mailto:m@cto.hiv" itemprop="email"><i class="mail"></i>m@cto.hiv</a>
                         </dd>
                         <dt><?php _e('kontakt.web.label'); ?></dt>
                         <dd>
-                            <a href="http://dotHIV.org/" itemprop="url" rel="author"><i class="link"></i>dotHIV.org</a>
+                            <a href="https://click4life.hiv/" itemprop="url" rel="author"><i class="link"></i>click4life.hiv</a>
                         </dd>
                         <dt>Twitter</dt>
                         <dd>
@@ -158,7 +158,7 @@ function _e($message, array $replace = null)
 
                 <p><?php _e('about.intro', array('numyears' => ((int)date('Y') - 1998))); ?></p>
 
-                <p><?php _e('about.dotHIV', array('dotHIV' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="http://dotHIV.org/" itemprop="url" rel="me"> <span itemprop="name">dotHIV</span></a><span itemprop="description" class="hidden">' . _g('organizations.dotHIV.description') . '</span></span>')); ?></p>
+                <p><?php _e('about.dotHIV', array('dotHIV' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="https://click4life.hiv/" itemprop="url" rel="me"> <span itemprop="name">dotHIV</span></a><span itemprop="description" class="hidden">' . _g('organizations.dotHIV.description') . '</span></span>')); ?></p>
 
                 <p><?php _e('about.cbh', array('coderbyheart' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="http://coderbyheart.de/" itemprop="url" rel="me"> <span itemprop="name">coder::by(<i class="coderbyheart">♥</i>);</span></a><span itemprop="description" class="hidden">' . _g('organizations.cbh.description') . '</span></span>')); ?></p>
 
