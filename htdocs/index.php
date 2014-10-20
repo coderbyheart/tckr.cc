@@ -83,19 +83,18 @@ function _e($message, array $replace = null)
 
                 <div class="boxbody gradient">
                     <p>
-                        <strong itemprop="name">Markus Tacker</strong><br> <?php _e('me.title'); ?><br><?php _e('me.role'); ?></p>
-
+                        <strong itemprop="name">Markus Tacker</strong><br> <?php _e('me.title'); ?></p>
                     <p>
-                    <span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://coderbyheart.de/" itemprop="url" rel="me"> <span itemprop="name">coder::by(<i class="coderbyheart">♥</i>);</span></a> <small>
-                            // <span itemprop="description"><?php _e('organizations.cbh.description'); ?></span></small></span><br>
+                    <span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="https://click4life.hiv/" itemprop="url" rel="me"> <span itemprop="name">dotHIV</span></a> <small>
+                            // <span itemprop="description"><?php _e('organizations.dotHIV.description'); ?></span></small></span><br>
                         <span itemprop="jobTitle"><?php _e('kontakt.jobtitle'); ?></span>
                     </p>
 
                     <p>
                             <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                                <span itemprop="streetAddress">Senefelderstr. 63</span><br>
-                                <span itemprop="postalCode">63069</span>
-                                <span itemprop="addressLocality">Offenbach</span>
+                                <span itemprop="streetAddress">Berger Str. 175</span><br>
+                                <span itemprop="postalCode">60385</span>
+                                <span itemprop="addressLocality">Frankfurt</span>
                                 <span class="hidden"><span itemprop="addressRegion">Hessen</span>,
                                     <span itemprop="addressCountry">Deutschland</span></span></span>
                     </p>
@@ -106,21 +105,26 @@ function _e($message, array $replace = null)
                         </dd>
                         <dt><?php _e('kontakt.email.label'); ?></dt>
                         <dd>
-                            <a href="mailto:m@coderbyheart.de" itemprop="email"><i class="mail"></i>m@coderbyheart.de</a>
+                            <a href="mailto:m@cto.hiv" itemprop="email"><i class="mail"></i>m@cto.hiv</a>
                         </dd>
                         <dt><?php _e('kontakt.web.label'); ?></dt>
                         <dd>
-                            <a href="http://tckr.cc/" itemprop="url" rel="author"><i class="link"></i>tckr.cc</a>
+                            <a href="https://click4life.hiv/" itemprop="url" rel="author"><i class="link"></i>click4life.hiv</a>
+                        </dd>
+                        <dt>Twitter</dt>
+                        <dd>
+                            <a href="https://twitter.com/coderbyheart" itemprop="url" rel="author"><i class="twitter"></i>@coderbyheart</a>
                         </dd>
                     </dl>
-                    <p>
-                        <?php _e('kontakt.essquare', array('link' => '<a href="http://essquare.de/">|</a>')); ?>
-                    </p>
                     <h3><?php _e('kontakt.connect'); ?></h3>
                     <dl class="icons">
                         <dt>XING</dt>
                         <dd>
                             <a href="https://www.xing.com/profile/Markus_Tacker" rel="me"><i class="xing"></i>XING</a>
+                        </dd>
+                        <dt>LinkedIn</dt>
+                        <dd>
+                            <a href="https://www.linkedin.com/in/markustacker" rel="me"><i class="linkedin"></i>LinkedIn</a>
                         </dd>
                         <dt>GitHub</dt>
                         <dd>
@@ -141,9 +145,7 @@ function _e($message, array $replace = null)
                     <div class="clearfix"></div>
                     <hr>
                     <p>
-                        <small><?php _e('kontakt.vcf', array('link' => '<a href="MarkusTacker.vcf">|</a>')); ?>
-                            <br><?php _e('kontakt.qr', array('link' => '<a href="qrcode.html"><i class="qrcode"></i>|</a>')); ?>
-                        </small>
+                        <small><?php _e('kontakt.vcf', array('link' => '<a href="MarkusTacker.vcf">|</a>')); ?></small>
                     </p>
                 </div>
             </aside>
@@ -152,19 +154,19 @@ function _e($message, array $replace = null)
             <h2 id="about" class="boxtitle gradient"><?php _e('about.headline'); ?></h2>
 
             <div class="boxbody gradient">
-                <a href="http://www.flickr.com/people/tacker/photosof/" rel="me"><img src="http://farm9.staticflickr.com/8067/8265716171_e994dd8ec7_n.jpg" alt="Markus Tacker" class="me" itemprop="image"/></a>
+                <a href="http://www.flickr.com/people/tacker/photosof/" rel="me"><img src="http://farm8.staticflickr.com/7089/13376054025_50df5e2169_n.jpg" alt="Markus Tacker" class="me" itemprop="image"/></a>
 
                 <p><?php _e('about.intro', array('numyears' => ((int)date('Y') - 1998))); ?></p>
 
-                <p><?php _e('about.retext', array('retext' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="http://retext.it/" itemprop="url" rel="me"><i class="retext"></i><span itemprop="name">re:text</span></a><span itemprop="description" class="hidden">' . _g('organizations.retext.description') . '</span></span>', 'abstract' => '<a href="http://studium.coderbyheart.de/wp-content/uploads/2012/06/Zusammenfassung.pdf">|</a>')); ?></p>
+                <p><?php _e('about.dotHIV', array('dotHIV' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="https://click4life.hiv/" itemprop="url" rel="me"> <span itemprop="name">dotHIV</span></a><span itemprop="description" class="hidden">' . _g('organizations.dotHIV.description') . '</span></span>')); ?></p>
 
                 <p><?php _e('about.cbh', array('coderbyheart' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="http://coderbyheart.de/" itemprop="url" rel="me"> <span itemprop="name">coder::by(<i class="coderbyheart">♥</i>);</span></a><span itemprop="description" class="hidden">' . _g('organizations.cbh.description') . '</span></span>')); ?></p>
 
-                <p><?php _e('about.essquare', array('essquare' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://essquare.de/" itemprop="url" rel="met coworker"> <span itemprop="name">essquare</span></a><span itemprop="description" class="hidden">' . _g('organizations.essquare.description') . '</span></span>')); ?></p>
-
                 <p><?php _e('about.wemoof', array('wemoof' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://wemoof.de/" itemprop="url" rel="me"><i class="wemoof"></i><span itemprop="name">Webmontag Offenbach</span></a><span itemprop="description" class="hidden">' . _g('organizations.wemoof.description') . '</span></span>')); ?></p>
 
-                <p><?php _e('about.misc', array('gruenderhub' => '<span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization"><a href="http://www.gründerhub.de/" itemprop="url"><span itemprop="name">Gründerhub FrankfurtRheinMain</span></a><span itemprop="description" class="hidden">' . _g('organizations.gruenderhub.description') . '</span></span>', 'usergroups' => '<a href="http://usergroups.rheinmainrocks.de">Usergroups</a>')); ?></p>
+                <p><?php _e('about.retext', array('retext' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="http://retext.it/" itemprop="url" rel="me"><i class="retext"></i><span itemprop="name">re:text</span></a><span itemprop="description" class="hidden">' . _g('organizations.retext.description') . '</span></span>', 'abstract' => '<a href="http://studium.coderbyheart.de/wp-content/uploads/2012/06/Zusammenfassung.pdf">|</a>')); ?></p>
+
+                <p><?php _e('about.misc', array('usergroups' => '<a href="http://usergroups.rheinmainrocks.de">Usergroups</a>')); ?></p>
 
                 <div class="clearfix"></div>
             </div>
@@ -193,5 +195,6 @@ function _e($message, array $replace = null)
         s.parentNode.insertBefore(ga, s);
     })();
 </script>
+<script src="//dothiv-registry.appspot.com/static/clickcounter.min.js" type="text/javascript"></script>
 </body>
 </html>

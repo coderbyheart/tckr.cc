@@ -3,10 +3,10 @@ msgid "titel"
 msgstr "Kontakt und Profil"
 
 msgid "me.title"
-msgstr "Medieninformatik (B.Sc.)"
+msgstr "Medieninformatiker (B.Sc.)"
 
 msgid "me.role"
-msgstr "Technical Lead / Interim CTO"
+msgstr "Chief Technical Officer"
 
 # Meta / META-Tag description
 msgid "description"
@@ -15,10 +15,6 @@ msgstr "Kontaktinformationen und persönliches Profil von Markus Tacker, Konzept
 # Navigation / Kontakt
 msgid "nav.kontakt"
 msgstr "Kontakt"
-
-# Navigation / Hire me!
-msgid "nav.hireme"
-msgstr "Job?"
 
 # Navigation / Sprache wechseln
 msgid "nav.switchlang"
@@ -42,15 +38,15 @@ msgstr "Kontakt"
 
 # Kontakt / Job-Titel
 msgid "kontakt.jobtitle"
-msgstr "Konzeption und Realisierung von komplexen Webanwendungen, technische Projektleitung"
-
-# Kontakt / essquare
-msgid "kontakt.essquare"
-msgstr "Mitglied von [link]essquare[/link] – nachhaltige Organisations- und Produktentwicklung"
+msgstr "Chief Technical Officer"
 
 # Organisationen / coder::by(♥)
 msgid "organizations.cbh.description"
 msgstr "Freelance Señor Web Backend Dev"
+
+# Organisationen / dotHIV
+msgid "organizations.dotHIV.description"
+msgstr ".hiv domains – The Red Ribbon of the digital age"
 
 # Organisationen / re:text
 msgid "organizations.retext.description"
@@ -59,10 +55,6 @@ msgstr "Mit re:text können alle text-spezifischen Aufgaben während der Erstell
 # Organisationen / TEDx RheinMain
 msgid "organizations.tedx.description"
 msgstr "TEDx ist eine Reihe lokaler, unabhängig organisierter Veranstaltungen, die Menschen zusammen bringt um gemeinsam das TED-Erlebnis zu erfahren."
-
-# Organisationen / Grüpnderhub
-msgid "organizations.gruenderhub.description"
-msgstr "Der Gründerhub FrankfurtRheinMain ist eine Initiative aus privaten, gewerblichen und kommunalen Mitgliedern zur Förderung innovativer Gründungen."
 
 # Kontakt / Label / Telefon
 msgid "kontakt.telefon.label"
@@ -88,10 +80,6 @@ msgstr "Verbinden …"
 msgid "kontakt.vcf"
 msgstr "Kontaktdaten als [link]VCF-Datei[/link]."
 
-# Kontakt / QR-Code
-msgid "kontakt.qr"
-msgstr "[link]QR-Code[/link] für diese Seite anzeigen."
-
 # Über mich / Titel
 msgid "about.headline"
 msgstr "Über mich"
@@ -102,19 +90,19 @@ msgstr "Dank einer Ausbildung mit Schwerpunkt Gestaltung, mehr als [numyears] Ja
 
 # Über mich / coder::by(♥)
 msgid "about.cbh"
-msgstr "Als [coderbyheart] arbeite ich frei für Agenturen und mittelständische Unternehmen. Dort übernehme ich neben der Konzeption und Realisierung von komplexen Webanwendungen auch die technische Projektleitung."
+msgstr "Als [coderbyheart] arbeitete ich bis März 2014 frei für Agenturen und mittelständische Unternehmen. Dort übernahm ich neben der Konzeption und Realisierung von komplexen Webanwendungen auch die technische Projektleitung."
 
-# Über mich / essquare
-msgid "about.essquare"
-msgstr "Seit 2014 bin ich Teil von [essquare] – einem Zusammenschluss erfahrener Freelancer, der nachhaltige Organisations- und Produktentwicklung aus einer Hand anbietet. Dabei gehen wir selbstbewusst neue Wege: wir haben den Kundennutzen fest im Blick und sagen auch mal Nein! Wir glauben, dass es an der Zeit ist, mit Kunden und Auftraggeber auf Augenhöhe zu streiten; über Werte, Zielsetzungen und Vorstellung — denn als Experten sind wir gefragt, die bestmögliche Lösung im Sinne des Nutzers zu finden und nicht die, die sich auf dem Weg des geringsten Widerstandes im Projektverlauf ergibt."
+# Über mich / dotHIV
+msgid "about.dotHIV"
+msgstr "Seit April 2014 arbeite ich als Chief Technical Officer bei [dotHIV], einem gemeinnützigen Unternehmen, das es sich zum Ziel gesetzt hat, Spenden für den Kampf genen HIV/AIDS zu sammeln indem eine neue Top-Level-Domain etabliert wird, die die Rote Schleif ins digital Zeitalter transportiert: .hiv."
 
 # Über mich / re:text
 msgid "about.retext"
-msgstr "In diesem Jahr habe ich mein Medieninformatik-Studium mit der Gesamtnote 1,5 (ECTS-Grad A) abgeschlossen. Meine Bachelor-Thesis zum Thema <em>Konzeption und Entwurf einer Anwendung zur Verwaltung von Texten für Informations- und Kommunikationsmedienprodukte</em> ([abstract]Abstract[/abstract]) wurde mit der Note 1,0 bewertet. Aus der Thesis ist [retext] entstanden, einem Dienst, der den Workflow rund um Texte in Informations- und Kommunikationsmedien organisiert und nachvollziehbar macht."
+msgstr "2012 habe ich mein Medieninformatik-Studium mit der Gesamtnote 1,5 (ECTS-Grad A) abgeschlossen. Meine Bachelor-Thesis zum Thema <em>Konzeption und Entwurf einer Anwendung zur Verwaltung von Texten für Informations- und Kommunikationsmedienprodukte</em> ([abstract]Abstract[/abstract]) wurde mit der Note 1,0 bewertet. Aus der Thesis ist [retext] entstanden, einem Dienst, der den Workflow rund um Texte in Informations- und Kommunikationsmedien organisiert und nachvollziehbar macht."
 
 # Über mich / diverse
 msgid "about.misc"
-msgstr "Wenn ich Zeit habe, mache ich ab und zu Fotos. Ich koche gerne und fahre noch lieber in den Urlaub. Mich interessiert eigentlich alles, was sich in Bits formen lässt und „unter der Haube“ von Webanwendungen passiert. Als Gründungsmitglied des [gruenderhub] kümmere ich mich um das Startup-Klima in RheinMain. Besonders angetan haben es mir auch [usergroups], so findest Du mich regelmäßig auf den Treffen des Webmontag Frankfurt, der Softwerkskammer, der PHP- und der Python-Usergroup und vielen anderen Veranstaltungen hier im Rhein-Main-Gebiet."
+msgstr "Wenn ich Zeit habe, mache ich ab und zu Fotos. Ich koche gerne und fahre noch lieber in den Urlaub. Mich interessiert eigentlich alles, was sich in Bits formen lässt und „unter der Haube“ von Webanwendungen passiert. Besonders angetan haben es mir auch [usergroups], so findest Du mich regelmäßig auf den Treffen des Webmontag Frankfurt, der Softwerkskammer, der PHP- und der Agile-Usergroup und vielen anderen Veranstaltungen hier im Rhein-Main-Gebiet."
 
 # Links / Blog Beschreibung
 msgid "link.blog.about"
@@ -155,7 +143,3 @@ msgstr "Im März 2013 habe ich den [wemoof] initiiert, der regelmäßig stattfin
 # Organisationen / wemoof
 msgid "organizations.wemoof.description"
 msgstr "Der Webmontag Offenbach ist eine informelle, nicht-kommerzielle und von der Community organisierte Veranstaltung, die Menschen zusammen bringt, die sich für das Web begeistern, Teil davon sind oder es werden wollen."
-
-# Organisationen / essquare
-msgid "organizations.esquare.description"
-msgstr "essquare ist ein Zusammenschluss erfahrener Freelancer, der nachhaltige Organisations- und Produktentwicklung aus einer Hand anbietet."
