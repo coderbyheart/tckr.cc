@@ -4,12 +4,12 @@ N:Tacker;Markus;;;
 FN:Markus Tacker
 BDAY:1980-09-11
 TEL;WORK:+491796678859
-EMAIL;WORK:m@tckr.cc
-ADR;WORK:;;Senefelderstr. 63;Offenbach;Hessen;63069;Deutschland
-ORG;CHARSET=UTF-8;ENCODING=QUOTED-PRINTABLE:=63=6F=64=65=72=3A=3A=62=79=28=E2=99=A5=29=3B
-TITLE:Konzeption und Realisierung von komplexen Webanwendungen, technische Projektleitung
-URL:http://tckr.cc/
+EMAIL;WORK:m@tld.hiv
+ADR;WORK:;;Berger Straße 175;Frankfurt;Hessen;60385;Deutschland
+ORG;dotHIV Initiative
+TITLE:Chief Technical Officer
+URL:http://cto.hiv/
 PHOTO;VALUE=uri:http://farm8.staticflickr.com/7089/13376054025_50df5e2169_n.jpg
 TZ:+01:00
-GEO:50.095063,8.762141
+GEO:50.125338,8.706209
 END:VCARD

@@ -158,7 +158,7 @@ function _e($message, array $replace = null)
 
                 <p><?php _e('about.intro', array('numyears' => ((int)date('Y') - 1998))); ?></p>
 
-                <p><?php _e('about.dotHIV', array('dotHIV' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="https://click4life.hiv/" itemprop="url" rel="me"> <span itemprop="name">dotHIV</span></a><span itemprop="description" class="hidden">' . _g('organizations.dotHIV.description') . '</span></span>')); ?></p>
+                <p><?php _e('about.dotHIV', array('dotHIV' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="https://click4life.hiv/" itemprop="url" rel="friend met coworker"> <span itemprop="name">dotHIV</span></a><span itemprop="description" class="hidden">' . _g('organizations.dotHIV.description') . '</span></span>', 'zentrale' => '<span itemscope itemtype="http://schema.org/Organization"><a href="http://die-zentrale-ffm.de/" itemprop="url" rel="friend met coworker"> <span itemprop="name">Die Zentrale Coworking</span></a><span itemprop="description" class="hidden">' . _g('organizations.zentrale.description') . '</span></span>')); ?></p>
 
                 <p><?php _e('about.cbh', array('coderbyheart' => '<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="http://coderbyheart.de/" itemprop="url" rel="me"> <span itemprop="name">coder::by(<i class="coderbyheart">♥</i>);</span></a><span itemprop="description" class="hidden">' . _g('organizations.cbh.description') . '</span></span>')); ?></p>
 
@@ -175,7 +175,7 @@ function _e($message, array $replace = null)
     </div>
 </div>
 <footer>
-    <p><?php _e('footer', array('nounproject' => '<a href="http://www.thenounproject.com">The Noun Project</a>', 'markustacker' => '<a href="http://tckr.cc/" rel="author">Markus Tacker</a>', 'github' => '<a href="https://github.com/tacker/tckr.cc">|</a>')); ?></p>
+    <p><?php _e('footer', array('nounproject' => '<a href="http://www.thenounproject.com">The Noun Project</a>', 'markustacker' => '<a href="http://cto.hiv/" rel="author">Markus Tacker</a>', 'github' => '<a href="https://github.com/tacker/tckr.cc">|</a>')); ?></p>
 </footer>
 <script type="text/javascript">
     var _gaq = _gaq || [];

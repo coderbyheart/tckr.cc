@@ -8,8 +8,8 @@
     <property name="final_css" value="${build.dir}/complete.css"/>
 
     <!-- libraries -->
-    <property name="yui-compressor" location="/opt/yui/yuicompressor-2.4.7.jar"/>
-    <property name="yui-compressor-ant-task" location="/opt/yui/yui-compressor-ant-task-0.5.jar"/>
+    <property name="yui-compressor" location="/opt/yui/yuicompressor-2.4.8.jar"/>
+    <property name="yui-compressor-ant-task" location="/opt/yui/bin/yui-compressor-ant-task-0.5.jar"/>
 
     <!-- classpath -->
     <path id="yui.classpath">

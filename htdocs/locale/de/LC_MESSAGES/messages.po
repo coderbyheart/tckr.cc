@@ -46,7 +46,7 @@ msgstr "Freelance Señor Web Backend Dev"
 
 # Organisationen / dotHIV
 msgid "organizations.dotHIV.description"
-msgstr ".hiv domains – The Red Ribbon of the digital age"
+msgstr ".hiv domains – The digital Red Ribbon"
 
 # Organisationen / re:text
 msgid "organizations.retext.description"
@@ -94,7 +94,7 @@ msgstr "Als [coderbyheart] arbeitete ich bis März 2014 frei für Agenturen und 
 
 # Über mich / dotHIV
 msgid "about.dotHIV"
-msgstr "Seit April 2014 arbeite ich als Chief Technical Officer bei [dotHIV], einem gemeinnützigen Unternehmen, das es sich zum Ziel gesetzt hat, Spenden für den Kampf genen HIV/AIDS zu sammeln indem eine neue Top-Level-Domain etabliert wird, die die Rote Schleif ins digital Zeitalter transportiert: .hiv."
+msgstr "Seit April 2014 arbeite ich als Chief Technical Officer bei [dotHIV], einem gemeinnützigen Unternehmen, das es sich zum Ziel gesetzt hat, Spenden für den Kampf gegen HIV/AIDS zu sammeln indem eine neue Top-Level-Domain etabliert wird, die die Rote Schleife ins digital Zeitalter transportiert: .hiv. dotHIV hat seinen Sitz in Berlin, ich habe meinen Arbeitsplatz aber im [zentrale]einzig echten Coworking Space in Frankfurt[zentrale]."
 
 # Über mich / re:text
 msgid "about.retext"
@@ -102,7 +102,7 @@ msgstr "2012 habe ich mein Medieninformatik-Studium mit der Gesamtnote 1,5 (ECTS
 
 # Über mich / diverse
 msgid "about.misc"
-msgstr "Wenn ich Zeit habe, mache ich ab und zu Fotos. Ich koche gerne und fahre noch lieber in den Urlaub. Mich interessiert eigentlich alles, was sich in Bits formen lässt und „unter der Haube“ von Webanwendungen passiert. Besonders angetan haben es mir auch [usergroups], so findest Du mich regelmäßig auf den Treffen des Webmontag Frankfurt, der Softwerkskammer, der PHP- und der Agile-Usergroup und vielen anderen Veranstaltungen hier im Rhein-Main-Gebiet."
+msgstr "Wenn ich Zeit habe, mache ich ab und zu Fotos. Ich koche gerne und fahre noch lieber in den Urlaub. Mich interessiert eigentlich alles, was sich in Bits formen lässt und „unter der Haube“ von Webanwendungen passiert. Besonders angetan haben es mir auch [usergroups], so findest Du mich regelmäßig auf den Treffen der Softwerkskammer, der PHP- und der Agile-Usergroup und vielen anderen Veranstaltungen hier im Rhein-Main-Gebiet."
 
 # Links / Blog Beschreibung
 msgid "link.blog.about"
@@ -134,7 +134,7 @@ msgstr "Weitere Links"
 
 # Footer
 msgid "footer"
-msgstr "E-Mail-Icon von Marc Haumann, Welt-Icon von Johan H. W. Basberg, von [nounproject].\nSämtliche verwendeten Logos und Warenzeichen sind Eigentum des jeweiligen Rechteinhabers.\n © 2012 [markustacker]. Alle Rechte vorbehalten. [github]Quellcode auf GitHub.[/github]"
+msgstr "E-Mail-Icon von Marc Haumann, Welt-Icon von Johan H. W. Basberg, von [nounproject].\nSämtliche verwendeten Logos und Warenzeichen sind Eigentum des jeweiligen Rechteinhabers.\n © 2012-2014 [markustacker]. Alle Rechte vorbehalten. [github]Quellcode auf GitHub.[/github]"
 
 # Über mich / wemoof
 msgid "about.wemoof"
@@ -143,3 +143,7 @@ msgstr "Im März 2013 habe ich den [wemoof] initiiert, der regelmäßig stattfin
 # Organisationen / wemoof
 msgid "organizations.wemoof.description"
 msgstr "Der Webmontag Offenbach ist eine informelle, nicht-kommerzielle und von der Community organisierte Veranstaltung, die Menschen zusammen bringt, die sich für das Web begeistern, Teil davon sind oder es werden wollen."
+
+# Organisations / zentrale
+msgid "organizations.zentrale.description"
+msgstr "Die Zentrale Coworking - (echtes) Coworking in Frankfurt Bornheim"

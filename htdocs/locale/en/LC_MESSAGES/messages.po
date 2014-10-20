@@ -46,7 +46,7 @@ msgstr "Freelance Señor Web Backend Dev"
 
 # Organisationen / dotHIV
 msgid "organizations.dotHIV.description"
-msgstr ".hiv domains – The Red Ribbon of the digital age"
+msgstr ".hiv domains – The digital Red Ribbon"
 
 # Organisationen / re:text
 msgid "organizations.retext.description"
@@ -94,7 +94,7 @@ msgstr "Until march 2014 i used to work as [coderbyheart] on a freelance basis f
 
 # Über mich / dotHIV
 msgid "about.dotHIV"
-msgstr "In April 2014 I joined [dotHIV] as Chief Technical Officer. dotHIV is a non-profit organization which aims to raise awareness and funds for the fight againts HIV/AIDS by establishing the new top level domain .hiv."
+msgstr "In April 2014 I joined [dotHIV] as Chief Technical Officer. dotHIV is a non-profit organization which aims to raise awareness and funds for the fight againts HIV/AIDS by establishing the new top level domain .hiv. Altough dotHIV is a berlin-based startup I have my workplace at [zentrale]Frankfurt's only real coworking space[/zentrale]."
 
 # Über mich / re:text
 msgid "about.retext"
@@ -102,7 +102,7 @@ msgstr "In 2012 I graduated in media computer science (B.Sc.) and received the g
 
 # Über mich / diverse
 msgid "about.misc"
-msgstr "If I have some spare time on my hands I take pictures. I like to cook and even more to go on vacation. Basically, I am interested in everything which can be sculptured by bits and happens „under the hood“ of web applications. I am also totally into [usergroups]-you'll meet meet regulary at the Webmontag Frankfurt, the Softwerkskammer, the PHP- and Agile usergroups and many more events in the rhein-main area."
+msgstr "If I have some spare time on my hands I take pictures. I like to cook and even more to go on vacation. Basically, I am interested in everything which can be sculptured by bits and happens „under the hood“ of web applications. I am also totally into [usergroups]-you'll meet meet regulary at the Softwerkskammer, the PHP- and Agile usergroups and many more events in the rhein-main area."
 
 # Links / Blog Beschreibung
 msgid"link.blog.about"
@@ -134,7 +134,7 @@ msgstr "More links"
 
 # Footer
 msgid "footer"
-msgstr "E-mail icon by Marc Haumann, world icon by Johan H. W. Basberg, by [nounproject].\nAll other logos and trademarks used are the property of their respective owners.\n © 2012 [markustacker]. All rights reserved. [github]Source code on GitHub.[/github]"
+msgstr "E-mail icon by Marc Haumann, world icon by Johan H. W. Basberg, by [nounproject].\nAll other logos and trademarks used are the property of their respective owners.\n © 2012-2014 [markustacker]. All rights reserved. [github]Source code on GitHub.[/github]"
 
 # Über mich / wemoof
 msgid "about.wemoof"
@@ -143,3 +143,7 @@ msgstr "In March 2013 I initiated the [wemoof]-a recurring event which will brin
 # Organisationen / wemoof
 msgid "organizations.wemoof.description"
 msgstr "Webmonday Offenbach is an informal, non-commercial, and completely community-driven event that aims to connect the people who are shaping the future of the internet."
+
+# Organisations / zentrale
+msgid "organizations.zentrale.description"
+msgstr "Die Zentrale Coworking Space in Frankfurt - (real) Coworking in Frankfurt / Bornheim Mitte"
