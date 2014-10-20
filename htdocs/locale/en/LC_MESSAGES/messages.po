@@ -94,7 +94,7 @@ msgstr "Until march 2014 i used to work as [coderbyheart] on a freelance basis f
 
 # Über mich / dotHIV
 msgid "about.dotHIV"
-msgstr "In April 2014 I joined [dotHIV] as Chief Technical Officer. dotHIV is a non-profit organization which aims to raise awareness and funds for the fight againts HIV/AIDS by establishing the new top level domain .hiv. Altough dotHIV is a berlin-based startup I have my workplace at [zentrale]Frankfurt's only real coworking space[/zentrale]."
+msgstr "In April 2014 I joined [dotHIV] as Chief Technical Officer. dotHIV is a non-profit organization which aims to raise awareness and funds for the fight againts HIV/AIDS by establishing the new top level domain .hiv. Altough dotHIV is a berlin-based startup I have my workplace at [zentrale] - Frankfurt's only real coworking space."
 
 # Über mich / re:text
 msgid "about.retext"

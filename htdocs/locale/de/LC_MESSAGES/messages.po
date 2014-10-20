@@ -94,7 +94,7 @@ msgstr "Als [coderbyheart] arbeitete ich bis März 2014 frei für Agenturen und 
 
 # Über mich / dotHIV
 msgid "about.dotHIV"
-msgstr "Seit April 2014 arbeite ich als Chief Technical Officer bei [dotHIV], einem gemeinnützigen Unternehmen, das es sich zum Ziel gesetzt hat, Spenden für den Kampf gegen HIV/AIDS zu sammeln indem eine neue Top-Level-Domain etabliert wird, die die Rote Schleife ins digital Zeitalter transportiert: .hiv. dotHIV hat seinen Sitz in Berlin, ich habe meinen Arbeitsplatz aber im [zentrale]einzig echten Coworking Space in Frankfurt[zentrale]."
+msgstr "Seit April 2014 arbeite ich als Chief Technical Officer bei [dotHIV], einem gemeinnützigen Unternehmen, das es sich zum Ziel gesetzt hat, Spenden für den Kampf gegen HIV/AIDS zu sammeln indem eine neue Top-Level-Domain etabliert wird, die die Rote Schleife ins digital Zeitalter transportiert: .hiv. dotHIV hat seinen Sitz in Berlin, ich habe meinen Arbeitsplatz aber in der [zentrale], Frankfurt's einzig echtem Coworking Space."
 
 # Über mich / re:text
 msgid "about.retext"
