@@ -128,7 +128,7 @@ function _e($message, array $replace = null)
                         </dd>
                         <dt>GitHub</dt>
                         <dd>
-                            <a href="https://github.com/tacker" rel="me" title="tacker@GitHub"><i class="github"></i>GitHub</a>
+                            <a href="https://github.com/coderbyheart" rel="me" title="tacker@GitHub"><i class="github"></i>GitHub</a>
                         </dd>
                         <dt><?php _e('link.flickr.about'); ?>
 
