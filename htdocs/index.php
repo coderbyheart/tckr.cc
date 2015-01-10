@@ -154,7 +154,7 @@ function _e($message, array $replace = null)
             <h2 id="about" class="boxtitle gradient"><?php _e('about.headline'); ?></h2>
 
             <div class="boxbody gradient">
-                <a href="http://www.flickr.com/people/tacker/photosof/" rel="me"><img src="http://farm8.staticflickr.com/7089/13376054025_50df5e2169_n.jpg" alt="Markus Tacker" class="me" itemprop="image"/></a>
+                <a href="http://www.flickr.com/people/tacker/photosof/" rel="me"><img src="https://farm8.staticflickr.com/7336/13376420184_1f7c386fd7_n.jpg" alt="Markus Tacker" class="me" itemprop="image"/></a>
 
                 <p><?php _e('about.intro', array('numyears' => ((int)date('Y') - 1998))); ?></p>
 
