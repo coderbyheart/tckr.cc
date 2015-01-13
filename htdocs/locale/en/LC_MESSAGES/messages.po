@@ -86,23 +86,23 @@ msgstr "About me"
 
 # Über mich / Intro
 msgid "about.intro"
-msgstr "Due to my apprenticeship with an emphasis on design, [numyears]+ years of professional experience working as employee or self-employed and the study of media computer science at the university of applied sciences RheinMain I can build the bridge between design and technology, conception and realisation and can contribute profound professional know-how to the creation of complex web-based applications."
+msgstr "Due to my apprenticeship with an emphasis on design, [numyears]+ years of professional experience working as employee or self-employed and the study of media computer science at the university of applied sciences RheinMain I can build the bridge between design and technology, conception and realization and can contribute profound professional know-how to the creation of complex web-based applications."
 
 # Über mich / coder::by(♥)
 msgid "about.cbh"
-msgstr "Until march 2014 i used to work as [coderbyheart] on a freelance basis for agencies and SMEs where I was responsible for the conception and realisation of complex web-based applications and also for technical project management."
+msgstr "Until march 2014 I used to work as [coderbyheart] on a freelance basis for agencies and SMEs where I was responsible for the conception and realization of complex web-based applications and also for technical project management."
 
 # Über mich / dotHIV
 msgid "about.dotHIV"
-msgstr "In April 2014 I joined [dotHIV] as Chief Technical Officer. dotHIV is a non-profit organization which aims to raise awareness and funds for the fight againts HIV/AIDS by establishing the new top level domain .hiv. Altough dotHIV is a berlin-based startup I have my workplace at [zentrale] - Frankfurt's only real coworking space."
+msgstr "In April 2014 I joined [dotHIV] as Chief Technical Officer. dotHIV is a non-profit organization which aims to raise awareness and funds for the fight against HIV/AIDS by establishing the new top level domain .hiv. Altough dotHIV is a berlin-based startup I have my workplace at [zentrale] - Frankfurt's only real coworking space."
 
 # Über mich / re:text
 msgid "about.retext"
-msgstr "In 2012 I graduated in media computer science (B.Sc.) and received the grade 1.5 (ECTS grade A). My bachelor-thesis about <em>Conception and design of an application for the managament of text for information and communication media</em> ([abstract]german abstract[/abstract]) received the grade 1.0. [retext] is a result of the thesis, a service which organizes the workflow related to texts in information- and communication media."
+msgstr "In 2012 I graduated in media computer science (B.Sc.) and received the grade 1.5 (ECTS grade A). My bachelor-thesis about <em>Conception and design of an application for the management of text for information and communication media</em> ([abstract]German abstract[/abstract]) received the grade 1.0. [retext] is a result of the thesis, a service which organizes the workflow related to texts in information- and communication media."
 
 # Über mich / diverse
 msgid "about.misc"
-msgstr "If I have some spare time on my hands I take pictures. I like to cook and even more to go on vacation. Basically, I am interested in everything which can be sculptured by bits and happens „under the hood“ of web applications. I am also totally into [usergroups]-you'll meet meet regulary at the Softwerkskammer, the PHP- and Agile usergroups and many more events in the rhein-main area."
+msgstr "If I have some spare time on my hands I take pictures. I like to cook and even more to go on vacation. Basically, I am interested in everything which can be sculptured by bits and happens „under the hood“ of web applications. I am also totally into [usergroups]-you'll meet meet regularly at the Softwerkskammer, the PHP- and Agile usergroups and many more events in the Rhein-Main area."
 
 # Links / Blog Beschreibung
 msgid"link.blog.about"
