@@ -105,7 +105,7 @@ function _e($message, array $replace = null)
                         </dd>
                         <dt><?php _e('kontakt.email.label'); ?></dt>
                         <dd>
-                            <a href="mailto:m@cto.hiv" itemprop="email"><i class="mail"></i>m@cto.hiv</a>
+                            <a href="mailto:m@coderbyheart.com" itemprop="email"><i class="mail"></i>m@coderbyheart.com</a>
                         </dd>
                         <dt><?php _e('kontakt.web.label'); ?></dt>
                         <dd>
@@ -175,7 +175,7 @@ function _e($message, array $replace = null)
     </div>
 </div>
 <footer>
-    <p><?php _e('footer', array('nounproject' => '<a href="http://www.thenounproject.com">The Noun Project</a>', 'markustacker' => '<a href="http://cto.hiv/" rel="author">Markus Tacker</a>', 'github' => '<a href="https://github.com/tacker/tckr.cc">|</a>')); ?></p>
+    <p><?php _e('footer', array('nounproject' => '<a href="http://www.thenounproject.com">The Noun Project</a>', 'markustacker' => '<a href="http://coderbyheart.com/" rel="author">Markus Tacker</a>', 'github' => '<a href="https://github.com/tacker/tckr.cc">|</a>')); ?></p>
 </footer>
 <script type="text/javascript">
     var _gaq = _gaq || [];
